@@ -34,7 +34,7 @@ class Footer_v1 extends Component {
 								<div className="col-lg-3">
 									<div className="footer-widget footer-widget__about">
 										<a href="index-2.html">
-											<img src={publicUrl + "assets/images/logo-dark.png"} alt={imgattr} />
+											<img width='150px' height='150px' src={publicUrl + "assets/images/Dudwa-final-01.png"} alt={imgattr} />
 										</a>
 										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod </p>
 										<form action="#" className="footer__mc-form">

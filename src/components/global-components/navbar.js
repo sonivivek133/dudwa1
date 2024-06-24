@@ -13,7 +13,7 @@ class Navbar extends Component {
 			    <div className="container-fluid">
 			      <div className="main-nav__logo-box">
 			        <Link to="/">
-			          <img src={publicUrl+"assets/images/logo-full-light.png" } alt={ imgattr } />
+			          <img width='150px' height='150px' src={publicUrl+"assets/images/Dudwa-final-01.png" } alt={ imgattr } />
 			        </Link>
 			        <a href="#" className="side-menu__toggler"><i className="fa fa-bars" /></a>
 			      </div>{/* /.main-nav__logo-box */}
