@@ -33,7 +33,7 @@ class Footer_v2 extends Component {
 							<div className="col-xl-3 col-lg-6">
 								<div className="footer-widget footer-widget__about">
 									<Link to="/">
-										<img width='250px' height='100px' src={publicUrl + "assets/images/Dudwa-final-03.png"} alt={imgattr} />
+										<img width='230px' height='110px' src={publicUrl + "assets/images/Dudwa-final-06.png"} alt={imgattr} />
 									</Link>
 									<p>But we must ipsum dolor sit amet con sectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
 									<div className="footer-widget__social">
