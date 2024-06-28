@@ -13,7 +13,7 @@ class NavbarV2 extends Component {
 			    <div className="container">
 			      <div className="main-nav__logo-box">
 			        <Link to="/">
-			          <img width='230px' height='110px' src={publicUrl+"assets/images/Dudwa-final-05.png"} alt={ imgattr }/>
+			          <img width='230px' height='120px' src={publicUrl+"assets/images/Dudwa-final-05.png"} alt={ imgattr }/>
 			        </Link>
 			      </div>{/* /.main-nav__logo-box */}
 			      <div className="main-nav__main-navigation">

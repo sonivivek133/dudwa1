@@ -80,21 +80,21 @@ class Footer_v2 extends Component {
 							</div>{/* /.col-lg-3 */}
 							<div className="col-xl-3 col-lg-6">
 								<div className="footer-widget footer-widget__contact">
-									<h3 className="footer-widget__title">Newsletters</h3>{/* /.footer-widget__title */}
-									<p>Subscribe our newsletters to get more
-										update and many more</p>
-									<form action="#" className="footer__mc-form">
+									<h3 className="footer-widget__title">Contact Us</h3>{/* /.footer-widget__title */}
+									{/* <p>Subscribe our newsletters to get more
+										update and many more</p> */}
+									{/* <form action="#" className="footer__mc-form">
 										<input type="text" name="s" placeholder="Enter Your Email" />
 										<button type="submit"><i className="fa fa-long-arrow-alt-right" /></button>
-									</form>{/* /.footer__mc-form */}
+									</form> */}
 									<ul className="footer-widget__contact-list list-unstyled">
 										<li>
 											<i className="far fa-envelope" />
-											<a href="mailto:support@gmail.com">support@gmail.com</a>
+											<a href="mailto:support@gmail.com">info@dudwa.com</a>
 										</li>
 										<li>
 											<i className="far fa-phone" />
-											<a href="tel:+823-654-445-64">+823 654 445 64</a>
+											<a href="tel:+8935000888">+8935000888</a>
 										</li>
 									</ul>{/* /.footer-widget__contact-list */}
 								</div>{/* /.footer-widget footer-widget__post */}
@@ -104,7 +104,7 @@ class Footer_v2 extends Component {
 				</div>{/* /.site-footer-two__upper */}
 				<div className="site-footer-two__bottom">
 					<div className="container">
-						<p>Copy@2022 <a href="#">Bizkar</a>. All Right Reserved.</p>
+						<p>Copy@2024 <a href="#">Bizkar</a>. All Right Reserved.</p>
 					</div>{/* /.container */}
 				</div>{/* /.site-footer-two__bottom */}
 			</div>

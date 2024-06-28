@@ -37,10 +37,10 @@ class Footer_v1 extends Component {
 											<img width='230px' height='120px' src={publicUrl + "assets/images/Dudwa-final-05.png"} alt={imgattr} />
 										</a>
 										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod </p>
-										<form action="#" className="footer__mc-form">
-											<input type="text" placeholder="Enter Your Email" />
-											<button type="submit"><i className="fa fa-long-arrow-alt-right" /></button>
-										</form>{/* /.footer__mc-form */}
+										{/* <form action="#" className="footer__mc-form">
+											{/* <input type="text" placeholder="Enter Your Email" /> */}
+											{/* <button type="submit"><i className="fa fa-long-arrow-alt-right" /></button> 
+										</form> */}
 										<div className="footer-widget__social">
 											<a href="https://www.facebook.com/webtend/"><i className="fab fa-facebook-f" /></a>
 											<a href="https://www.twitter.com/webtend/"><i className="fab fa-twitter" /></a>
@@ -74,7 +74,7 @@ class Footer_v1 extends Component {
 					<div className="site-footer-one__bottom">
 						<div className="container">
 							<div className="site-footer-one__bottom-line" />{/* /.site-footer-one__bottom-line */}
-							<p>Copy@2022 <a href="#">Bizkar</a>. All Right Reserved.Design By LayerDrops. </p>
+							<p>Copy@2022 <a href="#">Dudwa</a>. All Right Reserved.Design By AgyleStudio. </p>
 						</div>{/* /.container */}
 					</div>{/* /.site-footer-one__bottom */}
 				</footer>

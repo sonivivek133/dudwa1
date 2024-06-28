@@ -9,7 +9,7 @@ import Team from './section-components/team';
 import Skill from './section-components/skill';
 import Portfolio from './section-components/portfolio-style-one';
 import Funfact from './section-components/funfact';
-import Testimonial from './section-components/testimonial-style-one';
+import Testimonial from './section-components/testimonial-v2';
 import CTA from './section-components/cta';
 import PostSlider from './section-components/post-slider';
 import Footer from './global-components/footer';
@@ -19,11 +19,11 @@ const Home_V1 = () => {
         <Navbar />
         <Banner />
         <Brand />
-        <WhyChooseUs />
-        <AboutStyleOne />
+        {/* <WhyChooseUs /> */}
+        {/* <AboutStyleOne /> */}
         <AboutStyleTwo />
         <Team />
-        <Skill />
+        {/* <Skill /> */}
         <Portfolio />
         <Funfact />
         <Testimonial />
