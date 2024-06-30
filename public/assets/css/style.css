@@ -909,7 +909,7 @@ h6 {
 	left: 0;
 	width: 100%;
 	z-index: 999;
-	background-color: var(--thm-black);
+	background-color: #fff;
 	box-shadow: 0px 6px 13px 0px rgba(0, 0, 0, 0.06);
 	opacity: 0;
 	-webkit-transform: translateY(-110%);
@@ -928,7 +928,9 @@ h6 {
 .stricked-menu .main-nav__navigation-box>li>a {
 	padding-top: 25px;
 	padding-bottom: 25px;
+	color: black;
 }
+
 
 .stricked-menu .main-nav__right .thm-btn {
 	background-color: #fff;
@@ -1737,6 +1739,9 @@ h6 {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+.site-footer-one{
+  background-color: rgb(65, 65, 127);
+}
 
 .site-footer-one__upper {
 	padding-top: 80px;
@@ -1761,7 +1766,7 @@ h6 {
 
 .footer-widget__title {
 	margin: 0;
-	color: var(--thm-black);
+	color: rgb(225, 225, 225);
 	font-size: 24px;
 	letter-spacing: -0.03em;
 	margin-bottom: 34px;
@@ -1786,7 +1791,7 @@ h6 {
 	margin: 0;
 	letter-spacing: -0.03em;
 	font-size: 16px;
-	color: var(--thm-black);
+	color: rgb(225, 225, 225);
 }
 
 .footer-widget__contact-box+.footer-widget__contact-box {
@@ -1923,7 +1928,7 @@ h6 {
 /* site footer two */
 
 .site-footer-two {
-	background-color: #1f3252;
+	background-color: rgb(65, 65, 127);
 	position: relative;
 }
 
