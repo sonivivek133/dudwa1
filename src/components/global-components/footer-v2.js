@@ -35,7 +35,7 @@ class Footer_v2 extends Component {
 									<Link to="/">
 										<img width='230px' height='110px' src={publicUrl + "assets/images/Dudwa-final-06.png"} alt={imgattr} />
 									</Link>
-									<p>But we must ipsum dolor sit amet con sectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+									<p>Discover New Idea To Build Your Business. We are professional & Experienced Advertising Agency Dudwa</p>
 									<div className="footer-widget__social">
 										<a href="https://www.facebook.com/webtend/"><i className="fab fa-facebook-f" /></a>
 										<a href="https://www.twitter.com/webtend/"><i className="fab fa-twitter" /></a>
@@ -104,7 +104,7 @@ class Footer_v2 extends Component {
 				</div>{/* /.site-footer-two__upper */}
 				<div className="site-footer-two__bottom">
 					<div className="container">
-						<p>Copy@2024 <a href="#">Bizkar</a>. All Right Reserved.</p>
+						<p>Copy@2024 <a href="#">Dudwa</a>. All Right Reserved.</p>
 					</div>{/* /.container */}
 				</div>{/* /.site-footer-two__bottom */}
 			</div>

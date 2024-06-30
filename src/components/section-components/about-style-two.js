@@ -21,9 +21,7 @@ class AboutStyleTwo extends Component {
 		            <h3>We Offer Best Soluation <br /> For Your Business</h3>
 		            <div className="block-title__line" />{/* /.block-title__line */}
 		          </div>{/* /.block-title */}
-		          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed eiusmod tempor incid idunt ut labore
-		            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerc itation ullamco laboris nisi
-		            ut aliquip exea commodo consequat.</p>
+		          <p>Dudwa is  specializes in creating direct and impactful marketing strategies that reach consumers on a personal level. These strategies include both outdoor and indoor marketing activities, aiming to engage customers through experiential, promotional, and interactive methods.</p>
 		          <div className="about-two__box">
 		            <div className="about-two__box-icon">
 		              <i className="far fa-leaf" />

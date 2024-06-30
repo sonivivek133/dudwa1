@@ -16,7 +16,7 @@ const ServiceV1 = () => {
         <Service />
         <Cta />
         <FaqV2 />
-        <Testimonial />
+        {/* <Testimonial /> */}
         {/* <Brand /> */}
         {/* <Case  customclass="case-one case-one__team-page case-one__service-page"/> */}
         <Footer />

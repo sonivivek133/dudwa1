@@ -13,7 +13,7 @@ class Cta extends Component {
 		    <div className="inner-container wow fadeInUp" data-wow-duration="1500ms">
 		      <div className="cta-one__left">
 		        <h3>Build Your Business</h3>
-		        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+		        <p>Connecting Brands with People, Everywhere.</p>
 		      </div>{/* /.cta-one__left */}
 		      <div className="cta-one__right">
 		        <Link to="/contact" className="thm-btn cta-one__btn">Contact Us <i className="fa fa-angle-double-right" /></Link>

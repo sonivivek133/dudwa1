@@ -36,7 +36,7 @@ class Footer_v1 extends Component {
 										<a href="index-2.html">
 											<img width='230px' height='120px' src={publicUrl + "assets/images/Dudwa-final-05.png"} alt={imgattr} />
 										</a>
-										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod </p>
+										<p>Discover New Idea To Build Your Business. We are professional & Experienced Advertising Agency Dudwa </p>
 										{/* <form action="#" className="footer__mc-form">
 											{/* <input type="text" placeholder="Enter Your Email" /> */}
 											{/* <button type="submit"><i className="fa fa-long-arrow-alt-right" /></button> 
@@ -57,14 +57,14 @@ class Footer_v1 extends Component {
 												<i className="far fa-map-marked" />
 												<h3>Address</h3>
 											</div>{/* /.footer-widget__contact-top */}
-											<p>205, Khola Street Name, New York, USA</p>
+											<p>Patna, Bihar, India</p>
 										</div>{/* /.footer-widget__contact-box */}
 										<div className="footer-widget__contact-box">
 											<div className="footer-widget__contact-top">
 												<i className="far fa-phone" />
 												<h3>Phone</h3>
 											</div>{/* /.footer-widget__contact-top */}
-											<p><a href="tel:+82-123-456-89">+82 123 456 89</a></p>
+											<p><a href="tel:+89-350-008-88">+89 350 008 88</a></p>
 										</div>{/* /.footer-widget__contact-box */}
 									</div>{/* /.footer-widget footer-widget__contact */}
 								</div>{/* /.col-lg-4 */}

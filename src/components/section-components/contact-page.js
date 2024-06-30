@@ -16,8 +16,7 @@ class Contact extends Component {
 		          <div className="contact-two__content">
 		            <div className="contact-two__block">
 		              <h3>Don't Hesitate To Contact Us</h3>
-		              <p>Sed ut perspiciatis unde omnis iste natus erro voluptat accusantium doloremque laudantium
-		                totam rem aperiam eaque</p>
+		              <p>Discover New Idea To Build Your Business. We are professional & Experienced Advertising Agency Dudwa</p>
 		            </div>{/* /.contact-two__block */}
 		            <ul className="list-unstyled contact-two__info-list">
 		              <li>
@@ -25,21 +24,21 @@ class Contact extends Component {
 		                  <i className="far fa-map-marked" />
 		                  Address :
 		                </div>{/* /.contact-two__info-list-title */}
-		                <p>27 Division St, New York, <br />NY 10002,USA</p>
+		                <p>Patna, Bihar, India</p>
 		              </li>
 		              <li>
 		                <div className="contact-two__info-list-title">
 		                  <i className="far fa-phone" />
 		                  Call Us :
 		                </div>{/* /.contact-two__info-list-title */}
-		                <p><a href="tel:08964712365">08964712365</a></p>
+		                <p><a href="tel:+8935000888">+8935000888</a></p>
 		              </li>
 		              <li>
 		                <div className="contact-two__info-list-title">
 		                  <i className="far fa-envelope" />
 		                  Email Us :
 		                </div>{/* /.contact-two__info-list-title */}
-		                <p><a href="mailto:support@gmail.com">support@gmail.com</a></p>
+		                <p><a href="mailto:info@dudwa.com">info@dudwa.com</a></p>
 		              </li>
 		            </ul>{/* /.contact-two__info-list */}
 		          </div>{/* /.contact-two__content */}
@@ -48,8 +47,7 @@ class Contact extends Component {
 		          <form action="#" className="contact-two__form">
 		            <div className="contact-two__block">
 		              <h3>Get In Touch</h3>
-		              <p>Sed ut perspiciatis unde omnis iste natus erro voluptat accusantium <br />doloremque laudantium
-		                totam rem aperiam eaque</p>
+		              <p>Fill this form and send us message</p>
 		            </div>{/* /.contact-two__block */}
 		            <div className="row">
 		              <div className="col-md-6">

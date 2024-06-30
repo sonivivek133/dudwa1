@@ -17,7 +17,7 @@ class PostSlider extends Component {
 		        <h3>Reads Our Latest <br /> News &amp; Blog</h3>
 		        <div className="block-title__line" />{/* /.block-title__line */}
 		      </div>{/* /.block-title */}
-		      <p>But we ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+		      <p>Stay informed with our latest updates! From breaking news and in-depth analyses to inspiring stories and expert insights, our News & Blog section brings you the most relevant information. Join us as we explore the topics that matter most to you. </p>
 		      <div className="blog-one__carousel-btn__wrap">
 		        <a href="#" className="blog-one__carousel-btn-left"><i className="fa fa-angle-double-left" /></a>
 		        <a href="#" className="blog-one__carousel-btn-right"><i className="fa fa-angle-double-right" /></a>
