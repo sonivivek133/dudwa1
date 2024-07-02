@@ -695,6 +695,22 @@ h6 {
 	z-index: 91;
 }
 
+
+/* _______________________
+
+# Navbar Scroll
+_______________________ */
+
+
+.main-nav__logo-box img {
+    z-index: 1001; 
+    /* position: relative;  */
+}
+
+
+
+/* _____________________ */
+
 .main-nav__one .container-fluid {
 	padding-left: 75px;
 	padding-right: 75px;
@@ -702,6 +718,7 @@ h6 {
 	display: flex;
 	-webkit-box-align: center;
 	align-items: center;
+	
 }
 
 .main-nav__one .main-nav__main-navigation {
@@ -1110,6 +1127,7 @@ h6 {
 	display: flex;
 	-webkit-box-align: center;
 	align-items: center;
+	
 }
 
 .site-header-two__home-four .main-nav__main-navigation {
