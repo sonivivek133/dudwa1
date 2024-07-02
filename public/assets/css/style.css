@@ -2894,6 +2894,7 @@ h6 {
 	-webkit-transition: 500ms;
 	transition: 500ms;
 	margin-bottom: 20px;
+	text-align: left;
 }
 
 .service-two__single:hover p {

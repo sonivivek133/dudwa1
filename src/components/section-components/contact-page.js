@@ -69,7 +69,7 @@ class Contact extends Component {
 		      </div>{/* /.row */}
 		    </div>{/* /.container */}
 		  </section>{/* /.contact-two */}
-		  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4562.753041141002!2d-118.80123790098536!3d34.152323469614075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e82469c2162619%3A0xba03efb7998eef6d!2sCostco+Wholesale!5e0!3m2!1sbn!2sbd!4v1562518641290!5m2!1sbn!2sbd" className="google-map__contact" allowFullScreen />
+		  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.088258965328!2d85.10466131505222!3d25.594094783710187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed582d2c138bc1%3A0xe714f77a5c0b6f48!2sPatna%2C%20Bihar%2C%20India!5e0!3m2!1sen!2sus!4v1625564234903!5m2!1sen!2sus" className="google-map__contact" allowFullScreen />
 		</div>
 
         }

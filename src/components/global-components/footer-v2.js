@@ -72,9 +72,9 @@ class Footer_v2 extends Component {
 										<li><Link to="/about">About Us</Link></li>
 										<li><Link to="/service">Our Services</Link></li>
 										<li><Link to="/about">Setting &amp; Privecy</Link></li>
-										<li><Link to="/contact">Need a Job?</Link></li>
+										{/* <li><Link to="/contact">Need a Job?</Link></li> */}
 										<li><Link to="/blog-grid">Latest Blog</Link></li>
-										<li><Link to="/contact">Get a Quote</Link></li>
+										{/* <li><Link to="/contact">Get a Quote</Link></li> */}
 									</ul>{/* /.footer-widget__links-list */}
 								</div>{/* /.footer-widget footer-widget__post */}
 							</div>{/* /.col-lg-3 */}

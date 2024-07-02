@@ -24,23 +24,9 @@ class AboutStyleTwo extends Component {
 		          <p>Dudwa is  specializes in creating direct and impactful marketing strategies that reach consumers on a personal level. These strategies include both outdoor and indoor marketing activities, aiming to engage customers through experiential, promotional, and interactive methods.</p>
 		          <div className="about-two__box">
 		            <div className="about-two__box-icon">
-		              <i className="far fa-leaf" />
+		              
 		            </div>{/* /.about-two__box-icon */}
-		            <div className="about-two__box-content">
-		              <h3>Manage Your Project</h3>
-		              <p>Consectetur adipisicing elit sed eiusmod tempor incididunt ut labore et dolore magna
-		                aliqua. Ut enim ad minim veniam</p>
-		            </div>{/* /.about-two__box-content */}
-		          </div>{/* /.about-two__box */}
-		          <div className="about-two__box">
-		            <div className="about-two__box-icon">
-		              <i className="far fa-laptop-code" />
-		            </div>{/* /.about-two__box-icon */}
-		            <div className="about-two__box-content">
-		              <h3>Business &amp; Data Analytics</h3>
-		              <p>Consectetur adipisicing elit sed eiusmod tempor incididunt ut labore et dolore magna
-		                aliqua. Ut enim ad minim veniam</p>
-		            </div>{/* /.about-two__box-content */}
+		            
 		          </div>{/* /.about-two__box */}
 		        </div>{/* /.about-two__content */}
 		      </div>{/* /.col-lg-6 */}

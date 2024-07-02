@@ -23,10 +23,9 @@ class AboutPage extends Component {
 			            <p>about us</p>
 			            <h3>Exclusive Agency To <br /> Provide Soluation</h3>
 			          </div>{/* /.block-title-two */}
-			          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem
-			            por incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
+			          <p>We Introduce Ourselves as Advertisers Engage in Outdoor & Indoor BTL Activity based at Patna, Our operations are in the State of Bihar. We have our own Set up with different Type of machines and fabrication unit to complete the Branding Activities. </p>
 			          <ul className="list-unstyled video-one__list">
-			            <li>
+			            {/* <li>
 			              <i className="far fa-check" />
 			              Smashing Book 6 Is Here New Frontiers In Web Design
 			            </li>
@@ -41,7 +40,15 @@ class AboutPage extends Component {
 			            <li>
 			              <i className="far fa-check" />
 			              Making Distributed Product Teams Work More Efficiently other
-			            </li>
+			            </li> */}
+
+     The Owner of the Company is into this business since Year2000, has Completed many campaigns for different Corporate Brands Along with Political Parties and Product. His Expertise is in the following Display Products:
+    
+	<br/>
+	<br/>
+	 <h3>Media</h3>
+
+    <b>1. Rooftop Hoardings, Unipoles, Wall Wrap, Glass Outdoors, Led Screens, Vehicle Brandings, UV DTF Stickers, Non-Lit Signage / Glowsign Baords, All Types of ACP Signages / Cladding, Flex / Vinyle / Oneway Vision / Clear Film with or Without Lamination, Cut Out And Many more as per your customised requirement…</b>
 			          </ul>{/* /.list-unstyled video-one__list */}
 			          <Link to="/service" className="thm-btn">Read More <i className="fa fa-angle-double-right" /></Link>
 			          {/* /.thm-btn */}

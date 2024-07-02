@@ -22,7 +22,7 @@ const Home_V1 = () => {
         {/* <WhyChooseUs /> */}
         {/* <AboutStyleOne /> */}
         <AboutStyleTwo />
-        <Team />
+        {/* <Team /> */}
         {/* <Skill /> */}
         <Portfolio />
         <Funfact />
