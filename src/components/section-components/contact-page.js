@@ -69,7 +69,7 @@ class Contact extends Component {
 		      </div>{/* /.row */}
 		    </div>{/* /.container */}
 		  </section>{/* /.contact-two */}
-		  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.088258965328!2d85.10466131505222!3d25.594094783710187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed582d2c138bc1%3A0xe714f77a5c0b6f48!2sPatna%2C%20Bihar%2C%20India!5e0!3m2!1sen!2sus!4v1625564234903!5m2!1sen!2sus" className="google-map__contact" allowFullScreen />
+		  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14338.656393025877!2d85.0985282!3d25.6097594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed587a8b207e97%3A0x5dc2601912075f3d!2s112%2C%20Gandhi%20Nagar%2C%20West%20Boring%20Canal%20Road%2C%20Patna%2C%20Bihar%20800001%2C%20India!5e0!3m2!1sen!2sus!4v1696323651354!5m2!1sen!2sus" className="google-map__contact" allowFullScreen />
 		</div>
 
         }

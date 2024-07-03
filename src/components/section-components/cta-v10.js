@@ -14,8 +14,7 @@ class CtaV10 extends Component {
               <img src={publicUrl+"assets/images/shapes/cta-shape-2-3.png"} className="cta-eleven__moc-3" alt="cta image" />
               <div className="container">
                 <h3>Work With Us</h3>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque lauda <br /> ntium totam
-                  rem aperiam eaque ipsa quae ab illo inventore veritatis et </p>
+                <p>Connecting Brands with People, Everywhere. </p>
                 <Link to="/service-details" className="thm-btn cta-eleven__btn">Read More <i className="fa fa-angle-double-right" /></Link>
                 {/* /.thm-btn cta-eleven__btn */}
               </div>{/* /.container */}

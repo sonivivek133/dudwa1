@@ -28,9 +28,9 @@ const ServiceV1 = () => {
             <Service/>
             <Video />
             <FunFact />
-            <Pricing />
+            {/* <Pricing /> */}
             <Brand />
-            <Testimonial />
+            {/* <Testimonial /> */}
             <Footer />
         </Router>
     );
