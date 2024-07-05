@@ -709,6 +709,36 @@ _______________________ */
 } */
 
 
+.main-nav__one {
+    position: relative;
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+
+.main-nav__one.stricky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-nav__one .logo-normal {
+    display: block;
+}
+
+.main-nav__one .logo-sticky {
+    display: none;
+}
+
+.main-nav__one.stricky .logo-normal {
+    display: none;
+}
+
+.main-nav__one.stricky .logo-sticky {
+    display: block;
+}
+
 
 
 /* _____________________ */

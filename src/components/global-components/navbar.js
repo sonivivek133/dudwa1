@@ -13,7 +13,7 @@
 // 			    <div className="container-fluid">
 // 			      <div className="main-nav__logo-box">
 // 			        <Link to="/">
-// 			          <img width='230px' height='120px' src={publicUrl+"assets/images/Dudwa-final-05.png" } alt={ imgattr } />
+// 			          <img width='230px' height='120px' src={publicUrl+"assets/images/Dudwa-final-06.png" } alt={ imgattr } />
 // 			        </Link>
 
 //                          {/* {this.props.className === "stricky" && (
@@ -117,73 +117,229 @@
 // export default Navbar
 
 
-import React, { Component } from 'react';
+
+// ________________________________________________________________________________________________________________
+
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-class Navbar extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            isSticky: false
+const Navbar = () => {
+    useEffect(() => {
+        const handleScroll = () => {
+            const navbar = document.querySelector('.main-nav__one');
+            if (window.scrollY > 50) {
+                navbar.classList.add('stricky');
+            } else {
+                navbar.classList.remove('stricky');
+            }
         };
-    }
 
-    componentDidMount() {
-        window.addEventListener('scroll', this.handleScroll);
-    }
+        window.addEventListener('scroll', handleScroll);
 
-    componentWillUnmount() {
-        window.removeEventListener('scroll', this.handleScroll);
-    }
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
 
-    handleScroll = () => {
-        if (window.scrollY > 180) {
-            this.setState({ isSticky: true });
-        } else {
-            this.setState({ isSticky: false });
-        }
-    }
+    let publicUrl = process.env.PUBLIC_URL + '/';
+    let imgattr = 'logo';
 
-    render() {
-        let publicUrl = process.env.PUBLIC_URL + '/';
-        let imgattr = 'logo';
-
-        return (
-            <header className={`site-header-one go-top ${this.state.isSticky ? 'sticky' : ''}`}>
-                <nav className="main-nav__one stricky">
-                    <div className="container-fluid">
-                        <div className="main-nav__logo-box">
-                            <Link to="/">
-                                <img
-                                    width='230px'
-                                    height='120px'
-                                    src={publicUrl + (this.state.isSticky ? "assets/images/Dudwa-final-05.png"  : "assets/images/Dudwa-final-06.png")}
-                                    alt={imgattr}
-                                />
-                            </Link>
-
-                            <a href="#" className="side-menu__toggler"><i className="fa fa-bars" /></a>
-                        </div>
-
-                        <div className="main-nav__main-navigation">
-                            <ul className="main-nav__navigation-box">
-                                <li><Link to="/">Home</Link></li>
-                                <li><Link to="/about">About</Link></li>
-                                <li><Link to="/service">Services</Link></li>
-                                <li><Link to="/portfolio-standard">Portfolio</Link></li>
-                                <li><Link to="/blog-grid">News</Link></li>
-                                <li><Link to="/contact">Contact</Link></li>
-                            </ul>
-                        </div>
-
-                        <div className="main-nav__right">
-                            {/* <Link to="/contact" className="thm-btn">Free Trial <i className="fa fa-angle-right" /></Link> */}
-                        </div>
+    return (
+        <header className="site-header-one go-top">
+            <nav className="main-nav__one">
+                <div className="container-fluid">
+                    <div className="main-nav__logo-box">
+                        <Link to="/">
+                            <img
+                                className="logo-normal"
+                                width="230px"
+                                height="120px"
+                                src={publicUrl + 'assets/images/Dudwa-final-06.png'}
+                                alt={imgattr}
+                            />
+                            <img
+                                className="logo-sticky"
+                                width="230px"
+                                height="120px"
+                                src={publicUrl + 'assets/images/Dudwa-final-05.png'}
+                                alt={imgattr}
+                            />
+                        </Link>
+                        <a href="#" className="side-menu__toggler">
+                            <i className="fa fa-bars" />
+                        </a>
                     </div>
-                </nav>
-            </header>
-        )
-    }
-}
+                    <div className="main-nav__main-navigation">
+                        <ul className="main-nav__navigation-box">
+                            <li>
+                                <Link to="/">Home</Link>
+                            </li>
+                            <li>
+                                <Link to="/about">About</Link>
+                            </li>
+                            <li>
+                                <Link to="/service">Services</Link>
+                            </li>
+                            <li>
+                                <Link to="/portfolio-standard">Portfolio</Link>
+                            </li>
+                            <li>
+                                <Link to="/blog-grid">News</Link>
+                            </li>
+                            <li>
+                                <Link to="/contact">Contact</Link>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="main-nav__right"></div>
+                </div>
+            </nav>
+        </header>
+    );
+};
 
 export default Navbar;
+
+
+// ________________________________________________________________________________________________________________
+
+
+// import React, { Component } from 'react';
+// import { Link } from 'react-router-dom';
+
+// class Navbar extends Component {
+//   constructor(props) {
+//     super(props);
+//     this.state = {
+//       isSticky: false
+//     };
+//   }
+
+//   componentDidMount() {
+//     window.addEventListener('scroll', this.handleScroll);
+//   }
+
+//   componentWillUnmount() {
+//     window.removeEventListener('scroll', this.handleScroll);
+//   }
+
+//   handleScroll = () => {
+//     if (window.scrollY > 180) {
+//       this.setState({ isSticky: true });
+//     } else {
+//       this.setState({ isSticky: false });
+//     }
+//   }
+
+//   render() {
+//     const publicUrl = process.env.PUBLIC_URL + '/';
+//     const imgattr = 'logo';
+//     const headerClass = `site-header-one go-top ${this.state.isSticky ? 'sticky' : ''}`;
+//     const logoSrc = this.state.isSticky ? "assets/images/Dudwa-final-05.png" : "assets/images/Dudwa-final-06.png";
+
+//     return (
+//       <header className={headerClass}>
+//         <nav className="main-nav__one stricky">
+//           <div className="container-fluid">
+//             <div className="main-nav__logo-box">
+//               <Link to="/">
+//                 <img
+//                   width='230px'
+//                   height='120px'
+//                   src={publicUrl + logoSrc}
+//                   alt={imgattr}
+//                 />
+//               </Link>
+
+//               <a href="#" className="side-menu__toggler"><i className="fa fa-bars" /></a>
+//             </div>
+
+//             <div className="main-nav__main-navigation">
+//               <ul className="main-nav__navigation-box">
+//                 <li><Link to="/">Home</Link></li>
+//                 <li><Link to="/about">About</Link></li>
+//                 <li><Link to="/service">Services</Link></li>
+//                 <li><Link to="/portfolio-standard">Portfolio</Link></li>
+//                 <li><Link to="/blog-grid">News</Link></li>
+//                 <li><Link to="/contact">Contact</Link></li>
+//               </ul>
+//             </div>
+
+//             <div className="main-nav__right">
+//               {/* <Link to="/contact" className="thm-btn">Free Trial <i className="fa fa-angle-right" /></Link> */}
+//             </div>
+//           </div>
+//         </nav>
+//       </header>
+//     );
+//   }
+// }
+
+// export default Navbar;
+
+// ________________________________________________________________________________________________________________
+
+// import React, { useState, useEffect } from 'react';
+// import { Link } from 'react-router-dom';
+
+// function Navbar() {
+//   const [isSticky, setIsSticky] = useState(false);
+//   const [logoUrl, setLogoUrl] = useState(''); // State to hold the logo URL
+
+//   useEffect(() => {
+//     const handleScroll = () => {
+//       setIsSticky(window.scrollY > 180);
+//     };
+
+//     window.addEventListener('scroll', handleScroll);
+
+//     return () => window.removeEventListener('scroll', handleScroll);
+//   }, []);
+
+//   useEffect(() => {
+//     // Set initial logo based on isSticky (false for default)
+//     setLogoUrl(isSticky ? `${process.env.PUBLIC_URL}/assets/images/Dudwa-final-06.png` : `${process.env.PUBLIC_URL}/assets/images/Dudwa-final-05.png`);
+//   }, [isSticky]); // Update logo URL only when isSticky changes
+
+//   return (
+//     <header className={`site-header-one go-top ${isSticky ? 'sticky' : ''}`}>
+//       <nav className="main-nav__one stricky">
+//         <div className="container-fluid">
+//           <div className="main-nav__logo-box">
+//             <Link to="/">
+//               <img
+//                 width='230px'
+//                 height='120px'
+//                 src={logoUrl}
+//                 alt="Logo" // Use a descriptive alt text
+//               />
+//             </Link>
+
+//             <a href="#" className="side-menu__toggler"><i className="fa fa-bars" /></a>
+//           </div>
+
+//           <div className="main-nav__main-navigation">
+//             <ul className="main-nav__navigation-box">
+//               <li><Link to="/">Home</Link></li>
+//               <li><Link to="/about">About</Link></li>
+//               <li><Link to="/service">Services</Link></li>
+//               <li><Link to="/portfolio-standard">Portfolio</Link></li>
+//               <li><Link to="/blog-grid">News</Link></li>
+//               <li><Link to="/contact">Contact</Link></li>
+//             </ul>
+//           </div>
+
+//           <div className="main-nav__right">
+//             {/* <Link to="/contact" className="thm-btn">Free Trial <i className="fa fa-angle-right" /></Link> */}
+//           </div>
+//         </div>
+//       </nav>
+//     </header>
+//   );
+// }
+
+// export default Navbar;
+
+// ________________________________________________________________________________________________________________
+
+
