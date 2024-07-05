@@ -780,7 +780,7 @@ _______________________ */
 .main-nav__one .main-nav__navigation-box>li>a {
     font-size: 17px;
     font-family: var(--heading-font);
-    color: white; /* Default to white text */
+    color: #fff; /* Default to white text */
     display: flex;
     align-items: center;
     padding-top: 11.5px;
@@ -789,7 +789,7 @@ _______________________ */
 }
 
 .main-nav__one.stricky .main-nav__navigation-box>li>a {
-    color: black; /* Black text for sticky navbar */
+    color: rgb(20, 17, 17); /* Black text for sticky navbar */
 }
 
 .main-nav__one .main-nav__navigation-box>li.dropdown>a::after {
