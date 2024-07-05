@@ -120,6 +120,89 @@
 
 // ________________________________________________________________________________________________________________
 
+// import React, { useEffect } from 'react';
+// import { Link } from 'react-router-dom';
+
+// const Navbar = () => {
+//     useEffect(() => {
+//         const handleScroll = () => {
+//             const navbar = document.querySelector('.main-nav__one');
+//             if (window.scrollY > 50) {
+//                 navbar.classList.add('stricky');
+//             } else {
+//                 navbar.classList.remove('stricky');
+//             }
+//         };
+
+//         window.addEventListener('scroll', handleScroll);
+
+//         return () => {
+//             window.removeEventListener('scroll', handleScroll);
+//         };
+//     }, []);
+
+//     let publicUrl = process.env.PUBLIC_URL + '/';
+//     let imgattr = 'logo';
+
+//     return (
+//         <header className="site-header-one go-top">
+//             <nav className="main-nav__one">
+//                 <div className="container-fluid">
+//                     <div className="main-nav__logo-box">
+//                         <Link to="/">
+//                             <img
+//                                 className="logo-normal"
+//                                 width="230px"
+//                                 height="120px"
+//                                 src={publicUrl + 'assets/images/Dudwa-final-06.png'}
+//                                 alt={imgattr}
+//                             />
+//                             <img
+//                                 className="logo-sticky"
+//                                 width="230px"
+//                                 height="120px"
+//                                 src={publicUrl + 'assets/images/Dudwa-final-05.png'}
+//                                 alt={imgattr}
+//                             />
+//                         </Link>
+//                         <a href="#" className="side-menu__toggler">
+//                             <i className="fa fa-bars" />
+//                         </a>
+//                     </div>
+//                     <div className="main-nav__main-navigation">
+//                         <ul className="main-nav__navigation-box">
+//                             <li>
+//                                 <Link to="/">Home</Link>
+//                             </li>
+//                             <li>
+//                                 <Link to="/about">About</Link>
+//                             </li>
+//                             <li>
+//                                 <Link to="/service">Services</Link>
+//                             </li>
+//                             <li>
+//                                 <Link to="/portfolio-standard">Portfolio</Link>
+//                             </li>
+//                             <li>
+//                                 <Link to="/blog-grid">News</Link>
+//                             </li>
+//                             <li>
+//                                 <Link to="/contact">Contact</Link>
+//                             </li>
+//                         </ul>
+//                     </div>
+//                     <div className="main-nav__right"></div>
+//                 </div>
+//             </nav>
+//         </header>
+//     );
+// };
+
+// export default Navbar;
+
+// ________________________________________________________________________________________________________________
+
+
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -148,12 +231,12 @@ const Navbar = () => {
         <header className="site-header-one go-top">
             <nav className="main-nav__one">
                 <div className="container-fluid">
-                    <div className="main-nav__logo-box">
+                    <div className="main-nav__logo-box ">
                         <Link to="/">
                             <img
                                 className="logo-normal"
                                 width="230px"
-                                height="120px"
+                                height="110px"
                                 src={publicUrl + 'assets/images/Dudwa-final-06.png'}
                                 alt={imgattr}
                             />
