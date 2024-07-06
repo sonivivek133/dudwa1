@@ -57,7 +57,7 @@ class Footer_v1 extends Component {
 												<i className="far fa-map-marked" />
 												<h3>Address</h3>
 											</div>{/* /.footer-widget__contact-top */}
-											<p>Patna, Bihar, India</p>
+											<p>112, Gandhi Nagar, West Boring Canal Road, Patna - 800001, Bihar, India</p>
 										</div>{/* /.footer-widget__contact-box */}
 										<div className="footer-widget__contact-box">
 											<div className="footer-widget__contact-top">

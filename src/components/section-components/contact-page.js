@@ -24,7 +24,7 @@ class Contact extends Component {
 		                  <i className="far fa-map-marked" />
 		                  Address :
 		                </div>{/* /.contact-two__info-list-title */}
-		                <p>Patna, Bihar, India</p>
+		                <p> 112, Gandhi Nagar, West Boring Canal Road, Patna - 800001, Bihar, India</p>
 		              </li>
 		              <li>
 		                <div className="contact-two__info-list-title">
