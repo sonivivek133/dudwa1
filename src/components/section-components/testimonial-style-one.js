@@ -45,7 +45,7 @@ class TestimonialOne extends Component {
         let publicUrl = process.env.PUBLIC_URL+'/'
         let imagealt = 'image'
 
-    return  <section className="testimonials-one">
+    return  <section className="testimonials-one" style={{marginTop:'-40px'}}>
 			  <div className="container">
 			    <div className="testimonials-one__top">
 			      <div className="block-title text-left">

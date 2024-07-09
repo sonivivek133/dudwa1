@@ -453,7 +453,7 @@ class ServiceDetails1 extends Component {
 			        </div>{/* /.service-details__content */}
 			      </div>{/* /.col-lg-6 */}
 			    </div>{/* /.row */}
-			    <div className="row">
+			    <div className="row" style={{marginTop:'100px'}}>
 			      <div className="col-lg-6">
 			        <img src={publicUrl+"assets/images/resources/service-d-moc-2.png"} alt={ imagealt } className="wow fadeInRight" data-wow-duration="1500ms" />
 			      </div>{/* /.col-lg-6 */}

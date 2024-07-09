@@ -9,7 +9,7 @@ class FaqV2 extends Component {
         let publicUrl = process.env.PUBLIC_URL+'/'
         let imagealt = 'image'
 
-    return  <section className="faq-two">
+    return  <section style={{marginBottom:'110px'}}>
         <div className="container">
           <div className="row">
             <div className="col-lg-6">

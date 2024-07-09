@@ -10,7 +10,7 @@ class TestimonialV2 extends Component {
         let imagealt = 'image'
         let CustomClass = this.props.CustomClass ? this.props.CustomClass : ''
 
-    return  <section className={"testimonials-two "+CustomClass}>
+    return  <section className={"testimonials-two "+CustomClass} style={{marginTop :'-130px'}}>
 			  <div className="container">
 			    <div className="block-title-two text-center">
 			      <p>our testimonials</p>

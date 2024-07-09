@@ -24,7 +24,7 @@ class Footer_v2 extends Component {
 		let imgattr = "Footer logo"
 
 		return (
-			<div className="site-footer-two  go-top">
+			<div className="site-footer-two  go-top" >
 				<img src={publicUrl + "assets/images/shapes/footer-shape-2-1.png"} alt={imgattr} className="site-footer-two__shape-1" />
 				<img src={publicUrl + "assets/images/shapes/footer-shape-2-2.png"} alt={imgattr} className="site-footer-two__shape-2" />
 				<div className="site-footer-two__upper">
@@ -72,7 +72,7 @@ class Footer_v2 extends Component {
 										<li><Link to="/about">About Us</Link></li>
 										<li><Link to="/service">Our Services</Link></li>
 										<li><Link to="/about">Setting &amp; Privecy</Link></li>
-										{/* <li><Link to="/contact">Need a Job?</Link></li> */}
+										<li><Link to="/contact">Need a Job?</Link></li>
 										<li><Link to="/blog-grid">Latest Blog</Link></li>
 										{/* <li><Link to="/contact">Get a Quote</Link></li> */}
 									</ul>{/* /.footer-widget__links-list */}

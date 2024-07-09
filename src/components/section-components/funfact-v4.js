@@ -8,7 +8,7 @@ class FunfactV4 extends Component {
 
         let publicUrl = process.env.PUBLIC_URL+'/'
 
-    return <section className="funfact-one funfact-one__home-two funfact-one__about-page">
+    return <section className="funfact-one funfact-one__home-two funfact-one__about-page" style={{marginTop :'-90px'}}>
 			  <div className="container">
 			    <div className="row high-gutter">
 			      <div className="col-lg-3 col-md-6">

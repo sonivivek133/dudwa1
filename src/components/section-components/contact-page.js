@@ -16,7 +16,9 @@ class Contact extends Component {
 		          <div className="contact-two__content">
 		            <div className="contact-two__block">
 		              <h3>Don't Hesitate To Contact Us</h3>
-		              <p>Discover New Idea To Build Your Business. We are professional & Experienced Advertising Agency Dudwa</p>
+		              <p>Discover New Idea To Build Your Business.
+						<br/>
+						 We are professional & Experienced Advertising Agency Dudwa</p>
 		            </div>{/* /.contact-two__block */}
 		            <ul className="list-unstyled contact-two__info-list">
 		              <li>

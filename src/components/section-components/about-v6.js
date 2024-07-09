@@ -9,7 +9,7 @@ class AboutV6 extends Component {
         let publicUrl = process.env.PUBLIC_URL+'/'
         let imagealt = 'image'
 
-    return <section className="about-three about-three__about-page  go-top">
+    return <section className="about-three about-three__about-page  go-top" style={{marginTop:'-120px'}}>
 			  <div className="container">
 			    <div className="row">
 			      <div className="col-xl-6">

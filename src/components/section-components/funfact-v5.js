@@ -8,7 +8,7 @@ class FunfactV5 extends Component {
 
         let publicUrl = process.env.PUBLIC_URL+'/'
 
-    return <section className="funfact-one funfact-one__service-page">
+    return <section className="funfact-one funfact-one__service-page" style={{marginBottom:'50px'}}>
 			  <div className="container">
 			    <div className="inner-container wow fadeInUp" data-wow-duration="1500ms">
 			      <div className="row">

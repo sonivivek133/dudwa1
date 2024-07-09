@@ -9,7 +9,7 @@ class PortFolioFull extends Component {
         let publicUrl = process.env.PUBLIC_URL+'/'
         let imagealt = 'image'
 
-    return  <section className="portfolio-three  go-top">
+    return  <section className="portfolio-three  go-top" style={{marginTop:'60px'}}>
         <div className="container-fluid">
           <div className="block-title-two text-center">
             <p>latest work</p>

@@ -74,7 +74,7 @@ class Footer_v1 extends Component {
 					<div className="site-footer-one__bottom">
 						<div className="container">
 							<div className="site-footer-one__bottom-line" />{/* /.site-footer-one__bottom-line */}
-							<p>Copy@2022 <a href="#">Dudwa</a>. All Right Reserved.Design By AgyleStudio. </p>
+							<p>Copy@2024 <a href="#">Dudwa</a>. All Right Reserved.Design By AgyleStudio. </p>
 						</div>{/* /.container */}
 					</div>{/* /.site-footer-one__bottom */}
 				</footer>

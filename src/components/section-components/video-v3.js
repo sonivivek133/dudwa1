@@ -9,7 +9,7 @@ class VideoV3 extends Component {
         let publicUrl = process.env.PUBLIC_URL+'/'
         let imagealt = 'image'
 
-    return  <section className="video-three" style={{backgroundImage: 'url('+publicUrl+'assets/images/resources/video-3-1.jpg)'}}>
+    return  <section className="video-three" style={{backgroundImage: 'url('+publicUrl+'assets/images/resources/video-3-1.jpg)', marginTop : '-30px'}} >
             <div className="container text-center">
               <a href="https://www.youtube.com/watch?v=Rw1JBhaoHBs" className="video-popup video-three__btn"><i className="fa fa-play" /></a>
             </div>{/* /.container */}

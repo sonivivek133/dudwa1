@@ -9,7 +9,7 @@ class ServiceV5 extends Component {
     let publicUrl = process.env.PUBLIC_URL+'/'
     let imagealt = 'image'
 
-    return	<section className="service-two service-two__service-page  go-top">
+    return	<section className="service-two service-two__service-page  go-top" style={{marginBottom:'-50px'}}>
 		  <div className="container">
 		    <div className="row">
 		      <div className="col-lg-5">
