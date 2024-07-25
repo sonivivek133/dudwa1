@@ -16,7 +16,7 @@ class Banner extends Component {
 				      <div className="col-lg-6">
 				        <div className="banner-one__content">
 				          <h3><span>Discover New </span> <br />Idea To Build <br /> Your <em>Business</em></h3>
-				          <p>We are professional &amp; Experiene Digital Agency Dudwa</p>
+				          <p>We are professional &amp; Experiene Digital Agency</p>
 				          <Link to="/service" className="thm-btn banner-one__btn">Discover Now <i className="fa fa-angle-double-right" /></Link>{/* /.thm-btn */}
 				        </div>
 				      </div>

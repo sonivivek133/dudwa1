@@ -24,14 +24,12 @@ class TestimonialV2 extends Component {
 			              <img src={publicUrl+"assets/images/testimonials/testimonial-2-1.jpg"} alt={ imagealt } />
 			            </div>{/* /.testimonials-two__image */}
 			            <div className="testimonials-two__top-content">
-			              <h3>Teresa Barber</h3>
-			              <span>CEO &amp; Founder</span>
+			              <h3>Jessica H</h3>
+			              {/* <span>CEO &amp; Founder</span> */}
 			            </div>{/* /.testimonials-two__top-content */}
 			          </div>{/* /.testimonials-two__top */}
 			          <div className="testimonials-two__content">
-			            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incid
-			              idunt ut labore et dolore magna aliqua. Ut enim ad minim venquis nostrud exercitation
-			              ullamco laboris nisi ut aliquip</p>
+			            <p>Dudwa's creativity and attention to detail have made a tremendous impact on our marketing efforts.</p>
 			          </div>{/* /.testimonials-two__content */}
 			          <div className="testimonials-two__bottom">
 			            <i className="far fa-quote-right testimonials-two__qoute-icon" />
@@ -52,14 +50,12 @@ class TestimonialV2 extends Component {
 			              <img src={publicUrl+"assets/images/testimonials/testimonial-2-2.jpg"} alt={ imagealt } />
 			            </div>{/* /.testimonials-two__image */}
 			            <div className="testimonials-two__top-content">
-			              <h3>Peter Allen</h3>
-			              <span>CEO &amp; Founder</span>
+			              <h3>David L</h3>
+			              {/* <span>CEO &amp; Founder</span> */}
 			            </div>{/* /.testimonials-two__top-content */}
 			          </div>{/* /.testimonials-two__top */}
 			          <div className="testimonials-two__content">
-			            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incid
-			              idunt ut labore et dolore magna aliqua. Ut enim ad minim venquis nostrud exercitation
-			              ullamco laboris nisi ut aliquip</p>
+			            <p>Thanks to Dudwa, our ad campaigns are now more targeted and effective. We've seen a noticeable increase in engagement.</p>
 			          </div>{/* /.testimonials-two__content */}
 			          <div className="testimonials-two__bottom">
 			            <i className="far fa-quote-right testimonials-two__qoute-icon" />
@@ -80,14 +76,12 @@ class TestimonialV2 extends Component {
 			              <img src={publicUrl+"assets/images/testimonials/testimonial-2-3.jpg"} alt={ imagealt } />
 			            </div>{/* /.testimonials-two__image */}
 			            <div className="testimonials-two__top-content">
-			              <h3>Rosetta Herrera</h3>
-			              <span>CEO &amp; Founder</span>
+			              <h3>Payal Jain</h3>
+			              {/* <span>CEO &amp; Founder</span> */}
 			            </div>{/* /.testimonials-two__top-content */}
 			          </div>{/* /.testimonials-two__top */}
 			          <div className="testimonials-two__content">
-			            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incid
-			              idunt ut labore et dolore magna aliqua. Ut enim ad minim venquis nostrud exercitation
-			              ullamco laboris nisi ut aliquip</p>
+			            <p>We couldn't be happier with the results from Dudwa. Their expertise in digital marketing is top-notch.</p>
 			          </div>{/* /.testimonials-two__content */}
 			          <div className="testimonials-two__bottom">
 			            <i className="far fa-quote-right testimonials-two__qoute-icon" />
@@ -108,14 +102,12 @@ class TestimonialV2 extends Component {
 			              <img src={publicUrl+"assets/images/testimonials/testimonial-2-1.jpg"} alt={ imagealt } />
 			            </div>{/* /.testimonials-two__image */}
 			            <div className="testimonials-two__top-content">
-			              <h3>Alejandro Cannon</h3>
-			              <span>CEO &amp; Founder</span>
+			              <h3>Atharwa Kumar</h3>
+			              {/* <span>CEO &amp; Founder</span> */}
 			            </div>{/* /.testimonials-two__top-content */}
 			          </div>{/* /.testimonials-two__top */}
 			          <div className="testimonials-two__content">
-			            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incid
-			              idunt ut labore et dolore magna aliqua. Ut enim ad minim venquis nostrud exercitation
-			              ullamco laboris nisi ut aliquip</p>
+			            <p>Dudwa's innovative ideas and excellent execution have helped us reach a wider audience.</p>
 			          </div>{/* /.testimonials-two__content */}
 			          <div className="testimonials-two__bottom">
 			            <i className="far fa-quote-right testimonials-two__qoute-icon" />
@@ -136,14 +128,12 @@ class TestimonialV2 extends Component {
 			              <img src={publicUrl+"assets/images/testimonials/testimonial-2-2.jpg"} alt={ imagealt } />
 			            </div>{/* /.testimonials-two__image */}
 			            <div className="testimonials-two__top-content">
-			              <h3>Addie Bass</h3>
-			              <span>CEO &amp; Founder</span>
+			              <h3>Shushma Pathak</h3>
+			              {/* <span>CEO &amp; Founder</span> */}
 			            </div>{/* /.testimonials-two__top-content */}
 			          </div>{/* /.testimonials-two__top */}
 			          <div className="testimonials-two__content">
-			            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incid
-			              idunt ut labore et dolore magna aliqua. Ut enim ad minim venquis nostrud exercitation
-			              ullamco laboris nisi ut aliquip</p>
+			            <p>The campaigns designed by Dudwa have given us a competitive edge in our industry. Highly recommend their services!</p>
 			          </div>{/* /.testimonials-two__content */}
 			          <div className="testimonials-two__bottom">
 			            <i className="far fa-quote-right testimonials-two__qoute-icon" />
@@ -164,14 +154,12 @@ class TestimonialV2 extends Component {
 			              <img src="assets/images/testimonials/testimonial-2-3.jpg" alt={ imagealt } />
 			            </div>{/* /.testimonials-two__image */}
 			            <div className="testimonials-two__top-content">
-			              <h3>Emily Hale</h3>
-			              <span>CEO &amp; Founder</span>
+			              <h3>Priya Tripathi</h3>
+			              {/* <span>CEO &amp; Founder</span> */}
 			            </div>{/* /.testimonials-two__top-content */}
 			          </div>{/* /.testimonials-two__top */}
 			          <div className="testimonials-two__content">
-			            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incid
-			              idunt ut labore et dolore magna aliqua. Ut enim ad minim venquis nostrud exercitation
-			              ullamco laboris nisi ut aliquip</p>
+			            <p>Our collaboration with Dudwa has been incredibly fruitful. Their team is responsive and results-driven.</p>
 			          </div>{/* /.testimonials-two__content */}
 			          <div className="testimonials-two__bottom">
 			            <i className="far fa-quote-right testimonials-two__qoute-icon" />
@@ -192,14 +180,12 @@ class TestimonialV2 extends Component {
 			              <img src={publicUrl+"assets/images/testimonials/testimonial-2-1.jpg"} alt={ imagealt } />
 			            </div>{/* /.testimonials-two__image */}
 			            <div className="testimonials-two__top-content">
-			              <h3>Leon Blake</h3>
-			              <span>CEO &amp; Founder</span>
+			              <h3>Raman</h3>
+			              {/* <span>CEO &amp; Founder</span> */}
 			            </div>{/* /.testimonials-two__top-content */}
 			          </div>{/* /.testimonials-two__top */}
 			          <div className="testimonials-two__content">
-			            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incid
-			              idunt ut labore et dolore magna aliqua. Ut enim ad minim venquis nostrud exercitation
-			              ullamco laboris nisi ut aliquip</p>
+			            <p>Dudwa exceeded our expectations with their innovative ad campaigns. Our brand visibility has skyrocketed!</p>
 			          </div>{/* /.testimonials-two__content */}
 			          <div className="testimonials-two__bottom">
 			            <i className="far fa-quote-right testimonials-two__qoute-icon" />
@@ -220,14 +206,12 @@ class TestimonialV2 extends Component {
 			              <img src={publicUrl+"assets/images/testimonials/testimonial-2-2.jpg"} alt={ imagealt } />
 			            </div>{/* /.testimonials-two__image */}
 			            <div className="testimonials-two__top-content">
-			              <h3>James Marsh</h3>
-			              <span>CEO &amp; Founder</span>
+			              <h3>Samantha R.</h3>
+			              {/* <span>CEO &amp; Founder</span> */}
 			            </div>{/* /.testimonials-two__top-content */}
 			          </div>{/* /.testimonials-two__top */}
 			          <div className="testimonials-two__content">
-			            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incid
-			              idunt ut labore et dolore magna aliqua. Ut enim ad minim venquis nostrud exercitation
-			              ullamco laboris nisi ut aliquip</p>
+			            <p>Working with Dudwa was a game-changer. Their strategic approach and creative solutions delivered outstanding results</p>
 			          </div>{/* /.testimonials-two__content */}
 			          <div className="testimonials-two__bottom">
 			            <i className="far fa-quote-right testimonials-two__qoute-icon" />
@@ -248,14 +232,12 @@ class TestimonialV2 extends Component {
 			              <img src={publicUrl+"assets/images/testimonials/testimonial-2-3.jpg"} alt={ imagealt } />
 			            </div>{/* /.testimonials-two__image */}
 			            <div className="testimonials-two__top-content">
-			              <h3>Dean Gibbs</h3>
-			              <span>CEO &amp; Founder</span>
+			              <h3>Michael T.</h3>
+			              {/* <span>CEO &amp; Founder</span> */}
 			            </div>{/* /.testimonials-two__top-content */}
 			          </div>{/* /.testimonials-two__top */}
 			          <div className="testimonials-two__content">
-			            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incid
-			              idunt ut labore et dolore magna aliqua. Ut enim ad minim venquis nostrud exercitation
-			              ullamco laboris nisi ut aliquip</p>
+			            <p>The team at Dudwa is professional and dedicated. Their advertising strategies have significantly boosted our sales.</p>
 			          </div>{/* /.testimonials-two__content */}
 			          <div className="testimonials-two__bottom">
 			            <i className="far fa-quote-right testimonials-two__qoute-icon" />

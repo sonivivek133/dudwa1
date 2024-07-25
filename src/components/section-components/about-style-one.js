@@ -17,7 +17,7 @@ class AboutStyleOne extends Component {
 			        <div className="about-one__content">
 			          <div className="block-title text-left">
 			            <p><span>About Us</span></p>
-			            <h3>We Are Specialized In <br /> Business Soluation</h3>
+			            <h3>We Are Specialized In <br /> Business Solution</h3>
 			            <div className="block-title__line" />{/* /.block-title__line */}
 			          </div>{/* /.block-title */}
 			          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incid dunt

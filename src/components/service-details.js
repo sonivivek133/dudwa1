@@ -12,7 +12,7 @@ import Pricing from './section-components/pricing-v4';
 import Testimonial from './section-components/testimonial-v2';
 import Brand from './section-components/brand-v4';
 import Case from './section-components/case';
-import Footer from './global-components/footer-v2';
+import Footer from './global-components/footer';
 
 const ServiceV1 = () => {
     return (

@@ -9,7 +9,7 @@ class TeamV2 extends Component {
         let publicUrl = process.env.PUBLIC_URL+'/'
         let imagealt = 'image'
 
-    return <section className="team-one team-one__about-page">
+    return <section className="page-header team-one team-one__about-page">
 		  <div className="container">
 		    <div className="block-title-two text-center">
 		      <p><span>Our Team</span></p>

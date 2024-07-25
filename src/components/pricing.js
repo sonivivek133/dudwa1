@@ -4,7 +4,7 @@ import PageHeader from './global-components/page-header';
 import PricingV4 from './section-components/pricing-v4';
 import PricingV5 from './section-components/pricing-v5';
 import Cta from './section-components/cta-v12';
-import Footer from './global-components/footer-v2';
+import Footer from './global-components/footer';
 
 const PricingPage = () => {
     return <div>

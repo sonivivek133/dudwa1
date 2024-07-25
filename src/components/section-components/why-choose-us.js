@@ -41,7 +41,7 @@ class WhyChooseUs extends Component {
                     </div>{/* /.service-one__icon */}
                     <div className="service-one__top-content">
                       <h3><Link to="/service-details">SEO, PPC &amp; Social
-                          Media Soluation</Link></h3>
+                          Media Solution</Link></h3>
                       <p>SEO Optimization</p>
                     </div>{/* /.service-one__top-content */}
                   </div>{/* /.service-one__top */}
@@ -58,7 +58,7 @@ class WhyChooseUs extends Component {
                     <div className="service-one__top-content">
                       <h3><Link to="/service-details">Web Design And
                           Development</Link></h3>
-                      <p>Web Soluations</p>
+                      <p>Web Solutions</p>
                     </div>{/* /.service-one__top-content */}
                   </div>{/* /.service-one__top */}
                   <p>Lorem ipsum dolor sit amet, consectetur adipis icing elit, sed do eiusmod tempor incid dunt utlab

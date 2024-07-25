@@ -13,7 +13,7 @@ class PostSlider extends Component {
 		  <div className="container-fluid">
 		    <div className="blog-one__left">
 		      <div className="block-title text-left">
-		        <p><span>Our Blog</span></p>
+		        <p><span>News & Articles</span></p>
 		        <h3>Reads Our Latest <br /> News &amp; Blog</h3>
 		        <div className="block-title__line" />{/* /.block-title__line */}
 		      </div>{/* /.block-title */}

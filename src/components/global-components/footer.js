@@ -34,7 +34,7 @@ class Footer_v1 extends Component {
 								<div className="col-lg-3">
 									<div className="footer-widget footer-widget__about">
 										<a href="index-2.html">
-											<img width='230px' height='110px' src={publicUrl + "assets/images/Dudwa-final-06.png"} alt={imgattr} />
+											<img width='230px' height='120px' src={publicUrl + "assets/images/Dudwa-final-06.png"} alt={imgattr} />
 										</a>
 										<p>Discover New Idea To Build Your Business. We are professional & Experienced Advertising Agency Dudwa </p>
 										{/* <form action="#" className="footer__mc-form">
@@ -74,7 +74,7 @@ class Footer_v1 extends Component {
 					<div className="site-footer-one__bottom">
 						<div className="container">
 							<div className="site-footer-one__bottom-line" />{/* /.site-footer-one__bottom-line */}
-							<p>Copy@2024 <a href="#">Dudwa</a>. All Right Reserved.Design By AgyleStudio. </p>
+							<p>Copy@2024 <a href="#">Dudwa</a>. All Right Reserved.Designed By AgyleStudio. </p>
 						</div>{/* /.container */}
 					</div>{/* /.site-footer-one__bottom */}
 				</footer>

@@ -236,14 +236,14 @@ const Navbar = () => {
                             <img
                                 className="logo-normal"
                                 width="230px"
-                                height="110px"
+                                height="120px"
                                 src={publicUrl + 'assets/images/Dudwa-final-06.png'}
                                 alt={imgattr}
                             />
                             <img
                                 className="logo-sticky"
                                 width="230px"
-                                height="120px"
+                                height="130px"
                                 src={publicUrl + 'assets/images/Dudwa-final-05.png'}
                                 alt={imgattr}
                             />

@@ -18,27 +18,27 @@ class Contact extends Component {
 		              <h3>Don't Hesitate To Contact Us</h3>
 		              <p>Discover New Idea To Build Your Business.
 						<br/>
-						 We are professional & Experienced Advertising Agency Dudwa</p>
+						 We are professional & Experienced Advertising Agency</p>
 		            </div>{/* /.contact-two__block */}
 		            <ul className="list-unstyled contact-two__info-list">
 		              <li>
 		                <div className="contact-two__info-list-title">
 		                  <i className="far fa-map-marked" />
-		                  Address :
+		                  {/* Address : */}
 		                </div>{/* /.contact-two__info-list-title */}
-		                <p> 112, Gandhi Nagar, West Boring Canal Road, Patna - 800001, Bihar, India</p>
+		                <p> 112, Gandhi Nagar, West Boring Canal Road, <br/> Patna - 800001, Bihar, India</p>
 		              </li>
 		              <li>
 		                <div className="contact-two__info-list-title">
 		                  <i className="far fa-phone" />
-		                  Call Us :
+		                  {/* Call Us : */}
 		                </div>{/* /.contact-two__info-list-title */}
 		                <p><a href="tel:+8935000888">+8935000888</a></p>
 		              </li>
 		              <li>
 		                <div className="contact-two__info-list-title">
 		                  <i className="far fa-envelope" />
-		                  Email Us :
+		                  {/* Email Us : */}
 		                </div>{/* /.contact-two__info-list-title */}
 		                <p><a href="mailto:info@dudwa.com">info@dudwa.com</a></p>
 		              </li>

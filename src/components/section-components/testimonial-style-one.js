@@ -49,8 +49,8 @@ class TestimonialOne extends Component {
 			  <div className="container">
 			    <div className="testimonials-one__top">
 			      <div className="block-title text-left">
-			        <p><span>Clients Say</span></p>
-			        <h3>know Everything About <br /> Professional Skills</h3>
+			        <p><span>Our Journey</span></p>
+			        <h3>know Everything About Our <br /> Professional Journey</h3>
 			        <div className="block-title__line" />{/* /.block-title__line */}
 			      </div>{/* /.block-title */}
 			      <div className="testimonials-one__carousel-btn__wrap">

@@ -3,7 +3,7 @@ import Navbar from './global-components/navbar-v2';
 import PageHeader from './global-components/page-header';
 import Portfolio from './section-components/portfolio-full';
 import Cta from './section-components/cta-v11';
-import Footer from './global-components/footer-v2';
+import Footer from './global-components/footer';
 
 const PortfolioFull = () => {
     return <div>
