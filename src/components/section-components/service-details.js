@@ -242,7 +242,7 @@ class ServiceDetails1 extends Component {
                 <h3>Outdoor BTL Services</h3>
                 <p>
                   <h5 onClick={() => this.toggleSection('outdoorExpanded')} style={{ cursor: 'pointer' }}>
-                    Billboards and Hoardings {outdoorExpanded ? '-' : '+'}
+                  {outdoorExpanded ? 'v ' : '> '} Billboards and Hoardings 
                   </h5>
                   {outdoorExpanded && (
                     <ol>
@@ -253,7 +253,7 @@ class ServiceDetails1 extends Component {
                   )}
 
                   <h5 onClick={() => this.toggleSection('indoorExpanded')} style={{ cursor: 'pointer' }}>
-                    Transit Advertising {indoorExpanded ? '-' : '+'}
+                  {indoorExpanded ? 'v ' : '> '}Transit Advertising 
                   </h5>
                   {indoorExpanded && (
                     <ol>
@@ -264,7 +264,7 @@ class ServiceDetails1 extends Component {
                   )}
 
                   <h5 onClick={() => this.toggleSection('integratedExpanded')} style={{ cursor: 'pointer' }}>
-                    Street Furniture {integratedExpanded ? '-' : '+'}
+                  {integratedExpanded ? 'v ' : '> '} Street Furniture 
                   </h5>
                   {integratedExpanded && (
                     <ol>
@@ -275,7 +275,7 @@ class ServiceDetails1 extends Component {
                   )}
 
                   <h5 onClick={() => this.toggleSection('digitalExpanded')} style={{ cursor: 'pointer' }}>
-                    Ambient Advertising {digitalExpanded ? '-' : '+'}
+                  {digitalExpanded ? 'v ' : '> '}  Ambient Advertising 
                   </h5>
                   {digitalExpanded && (
                     <ol>
@@ -286,7 +286,7 @@ class ServiceDetails1 extends Component {
                   )}
 
                   <h5 onClick={() => this.toggleSection('eventExpanded')} style={{ cursor: 'pointer' }}>
-                    Event Sponsorships {eventExpanded ? '-' : '+'}
+                  {eventExpanded ? 'v ' : '> '} Event Sponsorships 
                   </h5>
                   {eventExpanded && (
                     <ol>
@@ -302,7 +302,7 @@ class ServiceDetails1 extends Component {
                 <h3>Indoor BTL Services</h3>
                 <p>
                   <h5 onClick={() => this.toggleSection('posExpanded')} style={{ cursor: 'pointer' }}>
-                    Point of Sale (POS) Advertising {posExpanded ? '-' : '+'}
+                  {posExpanded ? 'v ' : '<'}  Point of Sale (POS) Advertising 
                   </h5>
                   {posExpanded && (
                     <ol>
@@ -313,7 +313,7 @@ class ServiceDetails1 extends Component {
                   )}
 
                   <h5 onClick={() => this.toggleSection('promotionsExpanded')} style={{ cursor: 'pointer' }}>
-                    In-Store Promotions {promotionsExpanded ? '-' : '+'}
+                  {promotionsExpanded ? 'v ' : '< '} In-Store Promotions 
                   </h5>
                   {promotionsExpanded && (
                     <ol>
@@ -324,7 +324,7 @@ class ServiceDetails1 extends Component {
                   )}
 
                   <h5 onClick={() => this.toggleSection('tradeShowsExpanded')} style={{ cursor: 'pointer' }}>
-                    Trade Shows and Exhibitions {tradeShowsExpanded ? '-' : '+'}
+                  {tradeShowsExpanded ? 'v ' : '< '} Trade Shows and Exhibitions 
                   </h5>
                   {tradeShowsExpanded && (
                     <ol>
@@ -335,7 +335,7 @@ class ServiceDetails1 extends Component {
                   )}
 
                   <h5 onClick={() => this.toggleSection('mallExpanded')} style={{ cursor: 'pointer' }}>
-                    Mall Advertising {mallExpanded ? '-' : '+'}
+                  {mallExpanded ? 'v ' : '< '} Mall Advertising 
                   </h5>
                   {mallExpanded && (
                     <ol>
@@ -346,7 +346,7 @@ class ServiceDetails1 extends Component {
                   )}
 
                   <h5 onClick={() => this.toggleSection('cinemaExpanded')} style={{ cursor: 'pointer' }}>
-                    Cinema Advertising {cinemaExpanded ? '-' : '+'}
+                  {cinemaExpanded ? 'v ' : '< '}  Cinema Advertising 
                   </h5>
                   {cinemaExpanded && (
                     <ol>
@@ -362,7 +362,7 @@ class ServiceDetails1 extends Component {
                 <h3>Integrated BTL Campaigns</h3>
                 <p>
                   <h5 onClick={() => this.toggleSection('crossPromotionsExpanded')} style={{ cursor: 'pointer' }}>
-                    Cross-Promotions {crossPromotionsExpanded ? '-' : '+'}
+                  {crossPromotionsExpanded ? 'v ' : '< '} Cross-Promotions 
                   </h5>
                   {crossPromotionsExpanded && (
                     <ol>
@@ -372,7 +372,7 @@ class ServiceDetails1 extends Component {
                   )}
 
                   <h5 onClick={() => this.toggleSection('experientialExpanded')} style={{ cursor: 'pointer' }}>
-                    Experiential Marketing {experientialExpanded ? '-' : '+'}
+                  {experientialExpanded ? 'v ' : '< '} Experiential Marketing 
                   </h5>
                   {experientialExpanded && (
                     <ol>
@@ -383,7 +383,7 @@ class ServiceDetails1 extends Component {
                   )}
 
                   <h5 onClick={() => this.toggleSection('loyaltyProgramsExpanded')} style={{ cursor: 'pointer' }}>
-                    Loyalty Programs {loyaltyProgramsExpanded ? '-' : '+'}
+                  {loyaltyProgramsExpanded ? 'v ' : '< '}  Loyalty Programs 
                   </h5>
                   {loyaltyProgramsExpanded && (
                     <ol>
@@ -398,7 +398,7 @@ class ServiceDetails1 extends Component {
                 <h3>Digital Integration</h3>
                 <p>
                   <h5 onClick={() => this.toggleSection('socialMediaExpanded')} style={{ cursor: 'pointer' }}>
-                    Social Media {socialMediaExpanded ? '-' : '+'}
+                  {socialMediaExpanded ? 'v ' : '< '} Social Media 
                   </h5>
                  
 				  {socialMediaExpanded && (
@@ -489,3 +489,4 @@ class ServiceDetails1 extends Component {
 }
 
 export default ServiceDetails1;
+

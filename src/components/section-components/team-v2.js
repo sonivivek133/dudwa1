@@ -13,7 +13,7 @@ class TeamV2 extends Component {
 		  <div className="container">
 		    <div className="block-title-two text-center">
 		      <p><span>Our Team</span></p>
-		      <h3>Meet Our Exclusive <br /> Team Member</h3>
+		      <h3 style={{color:'#fff'}}>Meet Our Exclusive <br /> Team Member</h3>
 		    </div>{/* /.block-title */}
 		    <div className="row">
 		      <div className="col-lg-3 col-md-6">
