@@ -1283,14 +1283,14 @@ _______________________ */
 
 .banner-one__moc {
 	position: absolute;
-	bottom: 175px;
+	bottom: 450px;
 	right: 30px;
 	-webkit-animation: ImgBounce 5s ease-in-out 0s infinite alternate;
 	animation: ImgBounce 5s ease-in-out 0s infinite alternate;
 }
 
 .banner-one .container-fluid {
-	padding-left: 230px;
+	padding-left: 180px;
 	padding-top: 300px;
 	padding-bottom: 454px;
 	/* margin-left: -47px; */
@@ -1303,6 +1303,10 @@ _______________________ */
 	line-height: 95px;
 	letter-spacing: -0.03em;
 }
+
+/* .banner-one__content{
+	 margin-left: -47px;
+} */
 
 .banner-one__content h3 span {
 	font-family: var(--special-font-light);

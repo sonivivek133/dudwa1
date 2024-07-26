@@ -19,7 +19,7 @@ class FunfactV3 extends Component {
 			                <div className="funfact-one__icon">
 			                  <i className="far fa-user-alt" />
 			                </div>{/* /.funfact-one__icon */}
-			                <h3><span className="counter">2500</span>{/* /.counter */}+</h3>
+			                <h3><span className="counter">700</span>{/* /.counter */}+</h3>
 			                <p>Project</p>
 			              </div>{/* /.funfact-one__single */}
 			            </div>{/* /.col-md-6 */}
@@ -28,7 +28,7 @@ class FunfactV3 extends Component {
 			                <div className="funfact-one__icon">
 			                  <i className="far fa-heart" />
 			                </div>{/* /.funfact-one__icon */}
-			                <h3><span className="counter">2960</span>{/* /.counter */}+</h3>
+			                <h3><span className="counter">500</span>{/* /.counter */}+</h3>
 			                <p>Satisfied Clients</p>
 			              </div>{/* /.funfact-one__single */}
 			            </div>{/* /.col-md-6 */}
@@ -37,7 +37,7 @@ class FunfactV3 extends Component {
 			                <div className="funfact-one__icon">
 			                  <i className="far fa-cloud-download" />
 			                </div>{/* /.funfact-one__icon */}
-			                <h3><span className="counter">5620</span>{/* /.counter */}
+			                <h3><span className="counter">120</span>{/* /.counter */}
 			                </h3>
 			                <p>Win Awards</p>
 			              </div>{/* /.funfact-one__single */}
@@ -47,7 +47,7 @@ class FunfactV3 extends Component {
 			                <div className="funfact-one__icon">
 			                  <i className="far fa-star" />
 			                </div>{/* /.funfact-one__icon */}
-			                <h3><span className="counter">365</span>{/* /.counter */}+</h3>
+			                <h3><span className="counter">25</span>{/* /.counter */}+</h3>
 			                <p>Team Member</p>
 			              </div>{/* /.funfact-one__single */}
 			            </div>{/* /.col-md-6 */}

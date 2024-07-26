@@ -10,9 +10,10 @@ class Banner extends Component {
         let imagealt = 'image'
 
     return <section className="banner-one go-top" style={{backgroundImage: 'url('+publicUrl+'assets/images/backgrounds/banner-bg-1-1.png)'}}>
-				  <img src={publicUrl+"assets/images/resources/banner-1-1.png"} alt={ imagealt } className="banner-one__moc" />
+				 
 				  <div className="container-fluid">
 				    <div className="row">
+					<img width="700px" src={publicUrl+"assets/images/resources/HomeBanner1(2).png"} alt={ imagealt } className="banner-one__moc" />
 				      <div className="col-lg-6">
 				        <div className="banner-one__content">
 				          <h3><span>Discover New </span> <br />Idea To Build <br /> Your <em>Business</em></h3>
@@ -20,6 +21,11 @@ class Banner extends Component {
 				          <Link to="/service" className="thm-btn banner-one__btn">Discover Now <i className="fa fa-angle-double-right" /></Link>{/* /.thm-btn */}
 				        </div>
 				      </div>
+					  {/* <div className='col-lg-6'>
+						<div>
+						
+						</div>
+					  </div> */}
 				    </div>
 				  </div>
 				</section>

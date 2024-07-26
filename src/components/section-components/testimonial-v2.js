@@ -73,7 +73,7 @@ class TestimonialV2 extends Component {
 			        <div className="testimonials-two__single">
 			          <div className="testimonials-two__top">
 			            <div className="testimonials-two__image">
-			              <img src={publicUrl+"assets/images/testimonials/testimonial-2-3.jpg"} alt={ imagealt } />
+			              <img width="70px" src={publicUrl+"assets/images/testimonials/p1 payal jain.jpg"} alt={ imagealt } />
 			            </div>{/* /.testimonials-two__image */}
 			            <div className="testimonials-two__top-content">
 			              <h3>Payal Jain</h3>
