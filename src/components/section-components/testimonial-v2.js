@@ -21,7 +21,7 @@ class TestimonialV2 extends Component {
 			        <div className="testimonials-two__single">
 			          <div className="testimonials-two__top">
 			            <div className="testimonials-two__image">
-			              <img src={publicUrl+"assets/images/testimonials/testimonial-2-1.jpg"} alt={ imagealt } />
+			              <img src={publicUrl+"assets/images/testimonials/p5 Jessica H.png"} alt={ imagealt } />
 			            </div>{/* /.testimonials-two__image */}
 			            <div className="testimonials-two__top-content">
 			              <h3>Jessica H</h3>
@@ -47,7 +47,7 @@ class TestimonialV2 extends Component {
 			        <div className="testimonials-two__single">
 			          <div className="testimonials-two__top">
 			            <div className="testimonials-two__image">
-			              <img src={publicUrl+"assets/images/testimonials/testimonial-2-2.jpg"} alt={ imagealt } />
+			              <img src={publicUrl+"assets/images/testimonials/p2 David L.png"} alt={ imagealt } />
 			            </div>{/* /.testimonials-two__image */}
 			            <div className="testimonials-two__top-content">
 			              <h3>David L</h3>
@@ -73,7 +73,7 @@ class TestimonialV2 extends Component {
 			        <div className="testimonials-two__single">
 			          <div className="testimonials-two__top">
 			            <div className="testimonials-two__image">
-			              <img width="70px" src={publicUrl+"assets/images/testimonials/p1 payal jain.jpg"} alt={ imagealt } />
+			              <img src={publicUrl+"assets/images/testimonials/p1 Payal jain.png"} alt={ imagealt } />
 			            </div>{/* /.testimonials-two__image */}
 			            <div className="testimonials-two__top-content">
 			              <h3>Payal Jain</h3>
@@ -99,7 +99,7 @@ class TestimonialV2 extends Component {
 			        <div className="testimonials-two__single">
 			          <div className="testimonials-two__top">
 			            <div className="testimonials-two__image">
-			              <img src={publicUrl+"assets/images/testimonials/testimonial-2-1.jpg"} alt={ imagealt } />
+			              <img src={publicUrl+"assets/images/testimonials/p3 Atharwa kumar.png"} alt={ imagealt } />
 			            </div>{/* /.testimonials-two__image */}
 			            <div className="testimonials-two__top-content">
 			              <h3>Atharwa Kumar</h3>
@@ -125,7 +125,7 @@ class TestimonialV2 extends Component {
 			        <div className="testimonials-two__single">
 			          <div className="testimonials-two__top">
 			            <div className="testimonials-two__image">
-			              <img src={publicUrl+"assets/images/testimonials/testimonial-2-2.jpg"} alt={ imagealt } />
+			              <img src={publicUrl+"assets/images/testimonials/p7 Shushma pathak.png"} alt={ imagealt } />
 			            </div>{/* /.testimonials-two__image */}
 			            <div className="testimonials-two__top-content">
 			              <h3>Shushma Pathak</h3>
@@ -151,7 +151,7 @@ class TestimonialV2 extends Component {
 			        <div className="testimonials-two__single">
 			          <div className="testimonials-two__top">
 			            <div className="testimonials-two__image">
-			              <img src="assets/images/testimonials/testimonial-2-3.jpg" alt={ imagealt } />
+			              <img src="assets/images/testimonials/p4 Priya tripathi.png" alt={ imagealt } />
 			            </div>{/* /.testimonials-two__image */}
 			            <div className="testimonials-two__top-content">
 			              <h3>Priya Tripathi</h3>
@@ -177,7 +177,7 @@ class TestimonialV2 extends Component {
 			        <div className="testimonials-two__single">
 			          <div className="testimonials-two__top">
 			            <div className="testimonials-two__image">
-			              <img src={publicUrl+"assets/images/testimonials/testimonial-2-1.jpg"} alt={ imagealt } />
+			              <img src={publicUrl+"assets/images/testimonials/p6 Raman.png"} alt={ imagealt } />
 			            </div>{/* /.testimonials-two__image */}
 			            <div className="testimonials-two__top-content">
 			              <h3>Raman</h3>
@@ -203,7 +203,7 @@ class TestimonialV2 extends Component {
 			        <div className="testimonials-two__single">
 			          <div className="testimonials-two__top">
 			            <div className="testimonials-two__image">
-			              <img src={publicUrl+"assets/images/testimonials/testimonial-2-2.jpg"} alt={ imagealt } />
+			              <img src={publicUrl+"assets/images/testimonials/p8 Samantha R.png"} alt={ imagealt } />
 			            </div>{/* /.testimonials-two__image */}
 			            <div className="testimonials-two__top-content">
 			              <h3>Samantha R.</h3>

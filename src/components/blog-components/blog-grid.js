@@ -12,12 +12,12 @@ class BlogGrid extends Component {
 			      <div className="col-lg-4 col-md-6">
 			        <div className="blog-one__single">
 			          <div className="blog-one__image">
-			            <img src={publicUrl+"assets/images/blog/blog-1-1.jpg"} alt={imagealt} />
+			            <img src={publicUrl+"assets/images/blog/news1.5@100x-100.jpg"} alt={imagealt} />
 			          </div>{/* /.blog-one__image */}
 			          <div className="blog-one__content">
 			            <div className="blog-one__author">
-			              <img src={publicUrl+"assets/images/blog/blog-author-1-1.jpg"} alt={imagealt} />
-			              <p>Hakila K. Dolika</p>
+			              {/* <img src={publicUrl+"assets/images/blog/blog-author-1-1.jpg"} alt={imagealt} /> */}
+			              <p>Vaibhav Singh</p>
 			            </div>{/* /.blog-one__author */}
 			            <h3><Link to="/blog-details">Adobe Experience Manager vs. WordPress The Authoring Expeene
 			                Compared</Link></h3>
@@ -29,12 +29,12 @@ class BlogGrid extends Component {
 			      <div className="col-lg-4 col-md-6">
 			        <div className="blog-one__single">
 			          <div className="blog-one__image">
-			            <img src={publicUrl+"assets/images/blog/blog-1-2.jpg"} alt={imagealt} />
+			            <img src={publicUrl+"assets/images/blog/news2.5@100x-100.jpg"} alt={imagealt} />
 			          </div>{/* /.blog-one__image */}
 			          <div className="blog-one__content">
 			            <div className="blog-one__author">
-			              <img src={publicUrl+"assets/images/blog/blog-author-1-1.jpg" }alt={imagealt} />
-			              <p>Hakila K. Dolika</p>
+			              {/* <img src={publicUrl+"assets/images/blog/blog-author-1-1.jpg" }alt={imagealt} /> */}
+			              <p>Vaibhav Singh</p>
 			            </div>{/* /.blog-one__author */}
 			            <h3><Link to="/blog-details">Understanding API Based form
 			                Guide For Product Managers Are
@@ -47,12 +47,12 @@ class BlogGrid extends Component {
 			      <div className="col-lg-4 col-md-6">
 			        <div className="blog-one__single">
 			          <div className="blog-one__image">
-			            <img src={publicUrl+"assets/images/blog/blog-1-3.jpg" }alt={imagealt} />
+			            <img src={publicUrl+"assets/images/blog/news3.5@100x-100.jpg" }alt={imagealt} />
 			          </div>{/* /.blog-one__image */}
 			          <div className="blog-one__content">
 			            <div className="blog-one__author">
-			              <img src={publicUrl+"assets/images/blog/blog-author-1-2.jpg"} alt={imagealt} />
-			              <p>Hakila K. Dolika</p>
+			              {/* <img src={publicUrl+"assets/images/blog/blog-author-1-2.jpg"} alt={imagealt} /> */}
+			              <p>Vaibhav Singh</p>
 			            </div>{/* /.blog-one__author */}
 			            <h3><Link to="/blog-details">Monthly Web Development
 			                Update Rethinking Habits And Finding Custom Solutions</Link></h3>
@@ -64,12 +64,12 @@ class BlogGrid extends Component {
 			      <div className="col-lg-4 col-md-6">
 			        <div className="blog-one__single">
 			          <div className="blog-one__image">
-			            <img src={publicUrl+"assets/images/blog/blog-1-4.jpg"} alt={imagealt} />
+			            <img src={publicUrl+"assets/images/blog/news4.5@100x-100.jpg"} alt={imagealt} />
 			          </div>{/* /.blog-one__image */}
 			          <div className="blog-one__content">
 			            <div className="blog-one__author">
-			              <img src={publicUrl+"assets/images/blog/blog-author-1-1.jpg"} alt={imagealt} />
-			              <p>Hakila K. Dolika</p>
+			              {/* <img src={publicUrl+"assets/images/blog/blog-author-1-1.jpg"} alt={imagealt} /> */}
+			              <p>Vaibhav Singh</p>
 			            </div>{/* /.blog-one__author */}
 			            <h3><Link to="/blog-details">Adobe Experience Manager vs. WordPress The Authoring Expeene
 			                Compared</Link></h3>
@@ -81,12 +81,12 @@ class BlogGrid extends Component {
 			      <div className="col-lg-4 col-md-6">
 			        <div className="blog-one__single">
 			          <div className="blog-one__image">
-			            <img src={publicUrl+"assets/images/blog/blog-1-5.jpg"} alt={imagealt} />
+			            <img src={publicUrl+"assets/images/blog/news5.5@100x-100.jpg"} alt={imagealt} />
 			          </div>{/* /.blog-one__image */}
 			          <div className="blog-one__content">
 			            <div className="blog-one__author">
-			              <img src={publicUrl+"assets/images/blog/blog-author-1-2.jpg"} alt={imagealt} />
-			              <p>Hakila K. Dolika</p>
+			              {/* <img src={publicUrl+"assets/images/blog/blog-author-1-2.jpg"} alt={imagealt} /> */}
+			              {/* <p>Hakila K. Dolika</p> */}
 			            </div>{/* /.blog-one__author */}
 			            <h3><Link to="/blog-details">Adobe Experience Manager vs. WordPress The Authoring Expeene Compared</Link></h3>
 			            <Link to="/blog-details" className="thm-btn blog-one__btn">Read More <i className="fa fa-angle-double-right" /></Link>
@@ -97,12 +97,12 @@ class BlogGrid extends Component {
 			      <div className="col-lg-4 col-md-6">
 			        <div className="blog-one__single">
 			          <div className="blog-one__image">
-			            <img src={publicUrl+"assets/images/blog/blog-1-6.jpg"} alt={imagealt} />
+			            <img src={publicUrl+"assets/images/blog/news6.5@100x-100.jpg"} alt={imagealt} />
 			          </div>{/* /.blog-one__image */}
 			          <div className="blog-one__content">
 			            <div className="blog-one__author">
-			              <img src={publicUrl+"assets/images/blog/blog-author-1-1.jpg"} alt={imagealt} />
-			              <p>Hakila K. Dolika</p>
+			              {/* <img src={publicUrl+"assets/images/blog/blog-author-1-1.jpg"} alt={imagealt} /> */}
+			              <p>Vaibhav Singh</p>
 			            </div>{/* /.blog-one__author */}
 			            <h3><Link to="/blog-details">Adobe Experience Manager vs. WordPress The Authoring Expeene
 			                Compared</Link></h3>

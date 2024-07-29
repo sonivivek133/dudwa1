@@ -1758,16 +1758,16 @@ _______________________ */
 .brand-one__carousel .owl-item img {
 	width: auto;
 	display: block;
-	opacity: 0.2;
+	/* opacity: 0.2; */
 	margin-left: auto;
 	margin-right: auto;
 	-webkit-transition: all 500ms ease;
 	transition: all 500ms ease;
 }
 
-.brand-one__carousel .owl-item img:hover {
+/* .brand-one__carousel .owl-item img:hover {
 	opacity: 1;
-}
+} */
 
 
 .brand-one__home-two {
@@ -3738,85 +3738,65 @@ _______________________ */
 }
 
 /* Popup Styling  */
-/* Popup overlay */
-.popup-overlay {
+/* Hide scrollbar but keep scroll functionality */
+.popup-inner {
+	position: relative;
+	max-height: 80vh;
+	overflow-y: scroll;
+	padding-right: 20px; /* Ensure there's space for the scrollbar */
+  }
+  
+  .popup-inner::-webkit-scrollbar {
+	width: 0;
+	background: transparent;
+  }
+  
+  /* Close button styles */
+  .close-btn {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background: transparent;
+	border: none;
+	font-size: 24px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+  }
+  
+  .close-btn:hover {
+	width: 32px;
+	height: 32px;
+	background-color: #ff0000; /* Red background on hover */
+	border-radius: 50%; /* Make it circular */
+	color: #fff; /* White cross mark */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .popup-overlay {
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(0, 0, 0, 0.7); /* Dark background with some transparency */
+	background: rgba(0, 0, 0, 0.7);
 	display: flex;
-	justify-content: center;
 	align-items: center;
+	justify-content: center;
 	z-index: 1000;
-	opacity: 0;
-	transition: opacity 0.3s ease-in-out;
   }
   
-  /* Show the popup overlay */
-  .popup-overlay.show {
-	opacity: 1;
-  }
-  
-  /* Popup container */
   .popup {
 	background: #fff;
+	padding: 20px;
 	border-radius: 10px;
-	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Subtle shadow */
-	padding: 30px;
-	width: 80%;
-	max-width: 1000px;
-	max-height: 80%;
-	overflow-y: auto; /* Make content scrollable if it exceeds the height */
-	transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
-	transform: translateY(-50px);
-	opacity: 0;
-  }
-  
-  /* Show the popup */
-  .popup.show {
-	transform: translateY(0);
-	opacity: 1;
-  }
-  
-  /* Popup content */
-  .popup-inner {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 	position: relative;
+	max-width: 1000px;
+	width: 100%;
+	overflow: hidden;
   }
-  
-  /* Popup header */
-  .popup-inner h3 {
-	margin-top: 0;
-	font-size: 24px;
-	color: #333;
-  }
-  
-  /* Popup description */
-  .popup-inner p {
-	font-size: 16px;
-	line-height: 1.6;
-	color: #555;
-  }
-  
-  /* Close button */
-  .popup-inner .close-btn {
-	position: absolute;
-	top: 15px;
-	right: 15px;
-	background: transparent;
-	border: none;
-	font-size: 20px;
-	cursor: pointer;
-	color: #999;
-	transition: color 0.3s ease;
-  }
-  
-  .popup-inner .close-btn:hover {
-	color: #333;
-  }
-  
-  
   
   
   
@@ -3892,7 +3872,8 @@ _______________________ */
 .about-two__moc {
 	position: absolute;
 	top: 0;
-	right: -200px;
+	right: -60px;
+    top: -110px;
 	-webkit-animation: ImgBounce 5s ease-in-out 0s infinite alternate;
 	animation: ImgBounce 5s ease-in-out 0s infinite alternate;
 }
@@ -5064,23 +5045,29 @@ _______________________ */
 }
 
 .funfact-one__icon {
-	background-color: var(--thm-base);
-	width: 60px;
-	height: 60px;
-	border-radius: 50%;
-	display: -webkit-box;
-	display: flex;
-	-webkit-box-pack: center;
-	justify-content: center;
-	-webkit-box-align: center;
-	align-items: center;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 20px;
-	transform: scale(1) rotate(0deg) perspective(100px);
-	transition: transform 500ms ease;
+    position: relative;
+    width: 65px; /* Set width to desired size */
+    height: 75px; /* Set height to the same value as width */
+    background-color: var(--thm-base); /* Use the theme base color */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    text-align: center;
+    clip-path: polygon(
+        50% 0%, 100% 25%, 
+        100% 75%, 50% 100%, 
+        0% 75%, 0% 25%
+    );
+    transition: transform 500ms ease;
 }
+
+
 
 .funfact-one__single:hover .funfact-one__icon {
 	transform: scale(1.05) rotate(10deg) perspective(100px);
@@ -5110,19 +5097,19 @@ _______________________ */
 }
 
 .funfact-one [class*=col-]:nth-child(1) .funfact-one__icon {
-	background-color: #5966ff;
+	background-color: #B84E9D;
 }
 
 .funfact-one [class*=col-]:nth-child(2) .funfact-one__icon {
-	background-color: #ff984c;
+	background-color: #6ECDDD;
 }
 
 .funfact-one [class*=col-]:nth-child(3) .funfact-one__icon {
-	background-color: #e43683;
+	background-color: #B84E9D;
 }
 
 .funfact-one [class*=col-]:nth-child(4) .funfact-one__icon {
-	background-color: #31b46c;
+	background-color: #6ECDDD;
 }
 
 @media(min-width: 992px) {
@@ -5511,6 +5498,8 @@ _______________________ */
 
 .testimonials-two__image img {
 	border-radius: 50%;
+	width: 75px;
+	height: 75px;
 }
 
 .testimonials-two__bottom {
@@ -7875,11 +7864,13 @@ _______________________ */
 
 .side-menu__content p {
 	margin: 0;
-	font-size: 14px;
+	font-size: 17px;
 	line-height: 32px;
 	color: #7c7d8a;
 	letter-spacing: .02em;
 }
+
+
 
 .side-menu__content p+p {
 	margin-top: 30px;
@@ -9377,8 +9368,8 @@ _______________________ */
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-image: -webkit-gradient(linear, left top, right top, from(rgba(75, 40, 196, .9)), to(rgba(139, 63, 174, .9)));
-	background-image: linear-gradient(90deg, rgba(75, 40, 196, .9) 0%, rgba(139, 63, 174, .9) 100%);
+	background-image: -webkit-gradient(linear, left top, right top, from(rgba(75, 40, 196, .9)), to(rgba(139, 63, 174, .9))); 
+	 background-image: linear-gradient(90deg, rgba(75, 40, 196, .9) 0%, rgba(139, 63, 174, .9) 100%); 
 }
 
 .page-header .container {

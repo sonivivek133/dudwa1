@@ -29,7 +29,7 @@ class Footer_v1 extends Component {
 				<footer className="site-footer-one">
 					<div className="site-footer-one__upper">
 						<div className="container">
-							<img src={publicUrl + "assets/images/resources/footer-1-1.png"} alt={imgattr} className="site-footer-one__upper-moc" />
+							<img src={publicUrl + "assets/images/resources/illustration1 (2).png"} alt={imgattr} className="site-footer-one__upper-moc" />
 							<div className="row">
 								<div className="col-lg-3">
 									<div className="footer-widget footer-widget__about">
