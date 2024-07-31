@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './global-components/navbar-v2';
-import PageHeader from './global-components/page-header';
+import PageHeader from './global-components/page-header1';
 import BlogGridView from './blog-components/blog-list';
 import Footer from './global-components/footer';
 

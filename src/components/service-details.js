@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './global-components/navbar-v2';
-import PageHeader from './global-components/page-header';
+import PageHeader from './global-components/page-header1';
 import Service from './section-components/service-details';
 // import Service2 from './section-components/service-details2';
 // import Service3 from './section-components/service-details3';

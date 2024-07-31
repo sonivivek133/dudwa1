@@ -68,126 +68,126 @@ class TestimonialOne extends Component {
 			      <div className="item">
 			        <div className="testimonials-one__single">
 			          <div className="testimonials-one__image">
-			            <img src={publicUrl+"assets/images/testimonials/testimonial-1-1.jpg"} alt={ imagealt } />
+			            <img src={publicUrl+"assets/images/testimonials/2000.png"} alt={ imagealt } />
 			          </div>{/* /.testimonials-one__image */}
 			          <div className="testimonials-one__content">
 			            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiumod tempor incididunt ut
 			              labore e dolore magna aliqua. Ut enim ad miveniam quis nostrud exercitation</p>
-			            <h3>Pearl Campbell</h3>
-			            <span>CEO &amp; Founder</span>
-			            <i className="fa fa-quote-right testimonials-one__qoute-icon" />
+			            {/* <h3>Pearl Campbell</h3> */}
+			            {/* <span>CEO &amp; Founder</span>
+			            <i className="fa fa-quote-right testimonials-one__qoute-icon" /> */}
 			          </div>{/* /.testimonials-one__content */}
 			        </div>{/* /.testimonials-one__single */}
 			      </div>{/* /.item */}
 			      <div className="item">
 			        <div className="testimonials-one__single">
 			          <div className="testimonials-one__image">
-			            <img src={publicUrl+"assets/images/testimonials/testimonial-1-2.jpg"} alt={ imagealt } />
+			            <img src={publicUrl+"assets/images/testimonials/2003.png"} alt={ imagealt } />
 			          </div>{/* /.testimonials-one__image */}
 			          <div className="testimonials-one__content">
 			            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiumod tempor incididunt ut
 			              labore e dolore magna aliqua. Ut enim ad miveniam quis nostrud exercitation</p>
-			            <h3>Landon Anderson</h3>
+			            {/* <h3>Landon Anderson</h3>
 			            <span>CEO &amp; Founder</span>
-			            <i className="fa fa-quote-right testimonials-one__qoute-icon" />
+			            <i className="fa fa-quote-right testimonials-one__qoute-icon" /> */}
 			          </div>{/* /.testimonials-one__content */}
 			        </div>{/* /.testimonials-one__single */}
 			      </div>{/* /.item */}
 			      <div className="item">
 			        <div className="testimonials-one__single">
 			          <div className="testimonials-one__image">
-			            <img src={publicUrl+"assets/images/testimonials/testimonial-1-3.jpg"} alt={ imagealt } />
+			            <img src={publicUrl+"assets/images/testimonials/2006.png"} alt={ imagealt } />
 			          </div>{/* /.testimonials-one__image */}
 			          <div className="testimonials-one__content">
 			            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiumod tempor incididunt ut
 			              labore e dolore magna aliqua. Ut enim ad miveniam quis nostrud exercitation</p>
-			            <h3>Daniel Howell</h3>
+			            {/* <h3>Daniel Howell</h3>
 			            <span>CEO &amp; Founder</span>
-			            <i className="fa fa-quote-right testimonials-one__qoute-icon" />
+			            <i className="fa fa-quote-right testimonials-one__qoute-icon" /> */}
 			          </div>{/* /.testimonials-one__content */}
 			        </div>{/* /.testimonials-one__single */}
 			      </div>{/* /.item */}
 			      <div className="item">
 			        <div className="testimonials-one__single">
 			          <div className="testimonials-one__image">
-			            <img src={publicUrl+"assets/images/testimonials/testimonial-1-1.jpg"} alt={ imagealt } />
+			            <img src={publicUrl+"assets/images/testimonials/2009.png"} alt={ imagealt } />
 			          </div>{/* /.testimonials-one__image */}
 			          <div className="testimonials-one__content">
 			            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiumod tempor incididunt ut
 			              labore e dolore magna aliqua. Ut enim ad miveniam quis nostrud exercitation</p>
-			            <h3>Jay Houston</h3>
+			            {/* <h3>Jay Houston</h3>
 			            <span>CEO &amp; Founder</span>
-			            <i className="fa fa-quote-right testimonials-one__qoute-icon" />
+			            <i className="fa fa-quote-right testimonials-one__qoute-icon" /> */}
 			          </div>{/* /.testimonials-one__content */}
 			        </div>{/* /.testimonials-one__single */}
 			      </div>{/* /.item */}
 			      <div className="item">
 			        <div className="testimonials-one__single">
 			          <div className="testimonials-one__image">
-			            <img src={publicUrl+"assets/images/testimonials/testimonial-1-2.jpg"} alt={ imagealt } />
+			            <img src={publicUrl+"assets/images/testimonials/2012.png"} alt={ imagealt } />
 			          </div>{/* /.testimonials-one__image */}
 			          <div className="testimonials-one__content">
 			            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiumod tempor incididunt ut
 			              labore e dolore magna aliqua. Ut enim ad miveniam quis nostrud exercitation</p>
-			            <h3>Austin Houston</h3>
+			            {/* <h3>Austin Houston</h3>
 			            <span>CEO &amp; Founder</span>
-			            <i className="fa fa-quote-right testimonials-one__qoute-icon" />
+			            <i className="fa fa-quote-right testimonials-one__qoute-icon" /> */}
 			          </div>{/* /.testimonials-one__content */}
 			        </div>{/* /.testimonials-one__single */}
 			      </div>{/* /.item */}
 			      <div className="item">
 			        <div className="testimonials-one__single">
 			          <div className="testimonials-one__image">
-			            <img src={publicUrl+"assets/images/testimonials/testimonial-1-3.jpg"} alt={ imagealt } />
+			            <img src={publicUrl+"assets/images/testimonials/2015.png"} alt={ imagealt } />
 			          </div>{/* /.testimonials-one__image */}
 			          <div className="testimonials-one__content">
 			            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiumod tempor incididunt ut
 			              labore e dolore magna aliqua. Ut enim ad miveniam quis nostrud exercitation</p>
-			            <h3>Myrtie Wise</h3>
+			            {/* <h3>Myrtie Wise</h3>
 			            <span>CEO &amp; Founder</span>
-			            <i className="fa fa-quote-right testimonials-one__qoute-icon" />
+			            <i className="fa fa-quote-right testimonials-one__qoute-icon" /> */}
 			          </div>{/* /.testimonials-one__content */}
 			        </div>{/* /.testimonials-one__single */}
 			      </div>{/* /.item */}
 			      <div className="item">
 			        <div className="testimonials-one__single">
 			          <div className="testimonials-one__image">
-			            <img src={publicUrl+"assets/images/testimonials/testimonial-1-1.jpg"} alt={ imagealt } />
+			            <img src={publicUrl+"assets/images/testimonials/2018.png"} alt={ imagealt } />
 			          </div>{/* /.testimonials-one__image */}
 			          <div className="testimonials-one__content">
 			            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiumod tempor incididunt ut
 			              labore e dolore magna aliqua. Ut enim ad miveniam quis nostrud exercitation</p>
-			            <h3>Ronald Sharp</h3>
+			            {/* <h3>Ronald Sharp</h3>
 			            <span>CEO &amp; Founder</span>
-			            <i className="fa fa-quote-right testimonials-one__qoute-icon" />
+			            <i className="fa fa-quote-right testimonials-one__qoute-icon" /> */}
 			          </div>{/* /.testimonials-one__content */}
 			        </div>{/* /.testimonials-one__single */}
 			      </div>{/* /.item */}
 			      <div className="item">
 			        <div className="testimonials-one__single">
 			          <div className="testimonials-one__image">
-			            <img src={publicUrl+"assets/images/testimonials/testimonial-1-2.jpg"} alt={ imagealt } />
+			            <img src={publicUrl+"assets/images/testimonials/2021.png"} alt={ imagealt } />
 			          </div>{/* /.testimonials-one__image */}
 			          <div className="testimonials-one__content">
 			            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiumod tempor incididunt ut
 			              labore e dolore magna aliqua. Ut enim ad miveniam quis nostrud exercitation</p>
-			            <h3>Sophia Zimmerman</h3>
+			            {/* <h3>Sophia Zimmerman</h3>
 			            <span>CEO &amp; Founder</span>
-			            <i className="fa fa-quote-right testimonials-one__qoute-icon" />
+			            <i className="fa fa-quote-right testimonials-one__qoute-icon" /> */}
 			          </div>{/* /.testimonials-one__content */}
 			        </div>{/* /.testimonials-one__single */}
 			      </div>{/* /.item */}
 			      <div className="item">
 			        <div className="testimonials-one__single">
 			          <div className="testimonials-one__image">
-			            <img src={publicUrl+"assets/images/testimonials/testimonial-1-3.jpg"} alt={ imagealt } />
+			            <img src={publicUrl+"assets/images/testimonials/2024.png"} alt={ imagealt } />
 			          </div>{/* /.testimonials-one__image */}
 			          <div className="testimonials-one__content">
 			            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiumod tempor incididunt ut
 			              labore e dolore magna aliqua. Ut enim ad miveniam quis nostrud exercitation</p>
-			            <h3>Chester Ortiz</h3>
+			            {/* <h3>Chester Ortiz</h3>
 			            <span>CEO &amp; Founder</span>
-			            <i className="fa fa-quote-right testimonials-one__qoute-icon" />
+			            <i className="fa fa-quote-right testimonials-one__qoute-icon" /> */}
 			          </div>{/* /.testimonials-one__content */}
 			        </div>{/* /.testimonials-one__single */}
 			      </div>{/* /.item */}

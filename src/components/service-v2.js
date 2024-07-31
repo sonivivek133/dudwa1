@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './global-components/navbar-v2';
-import PageHeader from './global-components/page-header';
+import PageHeader from './global-components/page-header1';
 import Service from './section-components/service-v6';
 import Cta from './section-components/cta-v10';
 import ServiceV7 from './section-components/service-v7';
