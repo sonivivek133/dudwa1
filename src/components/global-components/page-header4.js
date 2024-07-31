@@ -8,8 +8,7 @@ class Page_header extends Component {
         let HeaderTitle = this.props.headertitle;
         let publicUrl = process.env.PUBLIC_URL+'/'
         let Subheader = this.props.subheader ? this.props.subheader : HeaderTitle
-        let Img 
-		// = this.props.Img ? this.props.Img :'about_collage1.png'
+        let Img  = this.props.Img ? this.props.Img :'news_collage.png'
 
         return (
 			<section className="page-header" style={{backgroundImage: 'url('+publicUrl+'assets/images/backgrounds/'+Img+')'}}>

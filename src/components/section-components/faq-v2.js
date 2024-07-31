@@ -57,7 +57,7 @@ class FaqV2 extends Component {
             
             <div className="col-lg-6 d-flex justify-content-center">
               <div className="faq-two__image">
-                <img src={publicUrl+"assets/images/resources/faq-2-image.png"} alt={ imagealt } />
+                <img src={publicUrl+"assets/images/resources/professional service.png"} alt={ imagealt } />
               </div>{/* /.faq-two__image */}
             </div>{/* /.col-lg-6 */}
           </div>{/* /.row */}

@@ -212,6 +212,7 @@ class ServiceV5 extends Component {
           </div>
         ),
         icon: 'fal fa-hand-holding-usd',
+        img : 'BTL service outdoor airtel billboard.png'
       },
 
       {
@@ -269,6 +270,7 @@ class ServiceV5 extends Component {
           </div>
         ),
         icon: 'fal fa-umbrella-beach',
+        img: 'BTL service indoor vivo dangler.png'
       },
       {
         title: 'Integrated BTL Campaigns',
@@ -306,6 +308,7 @@ class ServiceV5 extends Component {
           </div>
         ),
         icon: 'fal fa-paper-plane',
+        img : 'integrated BTL campaign_social media1.png'
       },
       {
         title: 'Digital Integration',
@@ -328,6 +331,7 @@ class ServiceV5 extends Component {
           </div>
         ),
         icon: 'fal fa-chart-network',
+        img : 'digital integrated_social media.png'
       },
     ];
 
@@ -347,9 +351,10 @@ class ServiceV5 extends Component {
                   {services.map((service, index) => (
                     <div key={index} className="col-md-6">
                       <div className="service-two__single js-tilt">
-                        <div
-                          className="service-two__single-image"
-                          style={{ backgroundImage: `url(${publicUrl}assets/images/backgrounds/service-bg-1-1.jpg)` }}
+                        <div 
+                        className="service-two__single-image"
+                          style={{ backgroundImage: `url(${publicUrl}assets/images/backgrounds/${service.img})` }}
+                          
                         />
                         <div className="service-two__single-inner">
                           <i className={service.icon} />

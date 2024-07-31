@@ -45,7 +45,7 @@ class TestimonialOne extends Component {
         let publicUrl = process.env.PUBLIC_URL+'/'
         let imagealt = 'image'
 
-    return  <section className="testimonials-one" style={{marginTop:'-40px'}}>
+    return  <section className="testimonials-one" >
 			  <div className="container">
 			    <div className="testimonials-one__top">
 			      <div className="block-title text-left">
@@ -71,8 +71,7 @@ class TestimonialOne extends Component {
 			            <img src={publicUrl+"assets/images/testimonials/2000.png"} alt={ imagealt } />
 			          </div>{/* /.testimonials-one__image */}
 			          <div className="testimonials-one__content">
-			            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiumod tempor incididunt ut
-			              labore e dolore magna aliqua. Ut enim ad miveniam quis nostrud exercitation</p>
+			            <p>Established with a strong focus on direct and impactful marketing strategies, both outdoor and indoor campaigns.</p>
 			            {/* <h3>Pearl Campbell</h3> */}
 			            {/* <span>CEO &amp; Founder</span>
 			            <i className="fa fa-quote-right testimonials-one__qoute-icon" /> */}
@@ -85,8 +84,7 @@ class TestimonialOne extends Component {
 			            <img src={publicUrl+"assets/images/testimonials/2003.png"} alt={ imagealt } />
 			          </div>{/* /.testimonials-one__image */}
 			          <div className="testimonials-one__content">
-			            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiumod tempor incididunt ut
-			              labore e dolore magna aliqua. Ut enim ad miveniam quis nostrud exercitation</p>
+			            <p>Based in Patna, Bihar, with a comprehensive in-house setup of state-of-the-art machines for diverse branding activities.</p>
 			            {/* <h3>Landon Anderson</h3>
 			            <span>CEO &amp; Founder</span>
 			            <i className="fa fa-quote-right testimonials-one__qoute-icon" /> */}
@@ -99,8 +97,7 @@ class TestimonialOne extends Component {
 			            <img src={publicUrl+"assets/images/testimonials/2006.png"} alt={ imagealt } />
 			          </div>{/* /.testimonials-one__image */}
 			          <div className="testimonials-one__content">
-			            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiumod tempor incididunt ut
-			              labore e dolore magna aliqua. Ut enim ad miveniam quis nostrud exercitation</p>
+			            <p>Led by an experienced owner, active since 2000, with expertise in various display products and campaigns.</p>
 			            {/* <h3>Daniel Howell</h3>
 			            <span>CEO &amp; Founder</span>
 			            <i className="fa fa-quote-right testimonials-one__qoute-icon" /> */}
@@ -113,8 +110,7 @@ class TestimonialOne extends Component {
 			            <img src={publicUrl+"assets/images/testimonials/2009.png"} alt={ imagealt } />
 			          </div>{/* /.testimonials-one__image */}
 			          <div className="testimonials-one__content">
-			            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiumod tempor incididunt ut
-			              labore e dolore magna aliqua. Ut enim ad miveniam quis nostrud exercitation</p>
+			            <p>Specializes in diverse media, including hoardings, LED screens, and vinyls, for customized branding solutions.</p>
 			            {/* <h3>Jay Houston</h3>
 			            <span>CEO &amp; Founder</span>
 			            <i className="fa fa-quote-right testimonials-one__qoute-icon" /> */}
@@ -127,8 +123,7 @@ class TestimonialOne extends Component {
 			            <img src={publicUrl+"assets/images/testimonials/2012.png"} alt={ imagealt } />
 			          </div>{/* /.testimonials-one__image */}
 			          <div className="testimonials-one__content">
-			            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiumod tempor incididunt ut
-			              labore e dolore magna aliqua. Ut enim ad miveniam quis nostrud exercitation</p>
+			            <p>Worked with corporate brands like Airtel, Idea, and political parties, providing comprehensive branding services.</p>
 			            {/* <h3>Austin Houston</h3>
 			            <span>CEO &amp; Founder</span>
 			            <i className="fa fa-quote-right testimonials-one__qoute-icon" /> */}
@@ -141,8 +136,7 @@ class TestimonialOne extends Component {
 			            <img src={publicUrl+"assets/images/testimonials/2015.png"} alt={ imagealt } />
 			          </div>{/* /.testimonials-one__image */}
 			          <div className="testimonials-one__content">
-			            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiumod tempor incididunt ut
-			              labore e dolore magna aliqua. Ut enim ad miveniam quis nostrud exercitation</p>
+			            <p>Centralized vendor for a wide range of branding activities for Jansuraj - Prashant Kishore across Bihar state.</p>
 			            {/* <h3>Myrtie Wise</h3>
 			            <span>CEO &amp; Founder</span>
 			            <i className="fa fa-quote-right testimonials-one__qoute-icon" /> */}
@@ -155,8 +149,7 @@ class TestimonialOne extends Component {
 			            <img src={publicUrl+"assets/images/testimonials/2018.png"} alt={ imagealt } />
 			          </div>{/* /.testimonials-one__image */}
 			          <div className="testimonials-one__content">
-			            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiumod tempor incididunt ut
-			              labore e dolore magna aliqua. Ut enim ad miveniam quis nostrud exercitation</p>
+			            <p>Equipped with advanced printing and fabrication machinery, including HP Latex and I3200 Print Head.</p>
 			            {/* <h3>Ronald Sharp</h3>
 			            <span>CEO &amp; Founder</span>
 			            <i className="fa fa-quote-right testimonials-one__qoute-icon" /> */}
@@ -169,8 +162,7 @@ class TestimonialOne extends Component {
 			            <img src={publicUrl+"assets/images/testimonials/2021.png"} alt={ imagealt } />
 			          </div>{/* /.testimonials-one__image */}
 			          <div className="testimonials-one__content">
-			            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiumod tempor incididunt ut
-			              labore e dolore magna aliqua. Ut enim ad miveniam quis nostrud exercitation</p>
+			            <p>Comprises graphic designers, machine operators, welders, and client service executives to deliver quality services.</p>
 			            {/* <h3>Sophia Zimmerman</h3>
 			            <span>CEO &amp; Founder</span>
 			            <i className="fa fa-quote-right testimonials-one__qoute-icon" /> */}
@@ -183,8 +175,7 @@ class TestimonialOne extends Component {
 			            <img src={publicUrl+"assets/images/testimonials/2024.png"} alt={ imagealt } />
 			          </div>{/* /.testimonials-one__image */}
 			          <div className="testimonials-one__content">
-			            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiumod tempor incididunt ut
-			              labore e dolore magna aliqua. Ut enim ad miveniam quis nostrud exercitation</p>
+			            <p>Offers outdoor and indoor BTL services, experiential marketing, trade show displays, and digital integration.</p>
 			            {/* <h3>Chester Ortiz</h3>
 			            <span>CEO &amp; Founder</span>
 			            <i className="fa fa-quote-right testimonials-one__qoute-icon" /> */}

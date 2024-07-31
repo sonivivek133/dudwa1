@@ -39,7 +39,8 @@ class BrandOne extends Component {
   <div className="container">
     <div className="brand-one__carousel owl-carousel owl-theme thm__owl-carousel" data-options="{&quot;loop&quot;: true, &quot;autoplay&quot;: true, &quot;autoplayTimeout&quot;: 5000, &quot;items&quot;: 6, &quot;margin&quot;: 150, &quot;smartSpeed&quot;: 700, &quot;nav&quot;: false, &quot;dots&quot;: false, &quot;responsive&quot;: { &quot;0&quot;: { &quot;items&quot;: 2, &quot;margin&quot;: 15 },&quot;575&quot;: { &quot;items&quot;: 3, &quot;margin&quot;: 30 },&quot;767&quot;: { &quot;items&quot;: 3, &quot;margin&quot;: 30 }, &quot;991&quot;: { &quot;items&quot;: 4, &quot;margin&quot;: 30 }, &quot;1199&quot;: { &quot;items&quot;: 4, &quot;margin&quot;: 75 }, &quot;1200&quot;: { &quot;items&quot;: 6 } }}">
       <div className="item">
-        <img src={publicUrl+"assets/images/brand/airtel.png"} alt={ imagealt } />
+        <img style={{width:'200px'}} src={publicUrl+"assets/images/brand/airtel.png"} alt={ imagealt } />
+        
       </div>{/* /.item */}
       <div className="item">
         <img src={publicUrl+"assets/images/brand/VI.png"} alt={ imagealt } />
