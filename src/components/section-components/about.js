@@ -42,9 +42,9 @@ class AboutPage extends Component {
 			              Making Distributed Product Teams Work More Efficiently other
 			            </li> */}
 
-     The Owner of the Company is into this business since Year2000, has Completed many campaigns for different Corporate Brands Along with Political Parties and Product. His Expertise is in the following Display Products:
+     The Owner of the Company is into this business since Year2000, has Completed many campaigns for different Corporate Brands Along with Political Parties and Product.
     
-	<br/>
+	
 	<br/>
 	 {/* <h3>Media</h3>
 
